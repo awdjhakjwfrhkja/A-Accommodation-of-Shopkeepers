@@ -1,0 +1,28 @@
+23:09:02,061 WARN  XmlData         0x0065 and 0x0061 has the same name of Grey Circle!
+23:09:02,041 WARN  XmlData         'Bow of the Hesperides' and 'The Fool Tarot Card' has the same ID of 0x0f15!
+23:09:02,040 WARN  XmlData         'Dark Helm' and 'Staff of Horrific Knowledge' has the same ID of 0x0f13!
+23:09:02,126 WARN  XmlData         'Nexus Anchor' and 'Ivory Portal Spawner' has the same ID of 0x7412!
+23:09:02,206 INFO  XmlData         7 Equipment Sets
+23:09:02,206 INFO  XmlData         14 Classes
+23:09:02,205 INFO  XmlData         192 Skins
+23:09:02,206 INFO  XmlData         80 Portals
+23:09:02,207 INFO  XmlData         4 Merchants
+23:09:02,207 INFO  XmlData         0 Pets
+23:09:02,208 INFO  XmlData         0 PetSkins
+23:09:02,208 INFO  XmlData         0 PetsAbility
+23:09:02,208 INFO  XmlData         0 PetBehaviors
+23:09:02,209 INFO  XmlData         7 Remote Textures
+23:09:02,209 INFO  XmlData         0 Additions
+23:09:02,218 INFO  Resources       Loading web data...
+23:09:02,338 INFO  Resources       Loading language data...
+23:09:02,352 INFO  Resources       Loading texture data...
+23:09:02,358 INFO  Resources       Loading music list...
+23:09:02,203 INFO  XmlData         Finish loading game data.
+23:09:02,204 INFO  XmlData         1576 Items
+23:09:07,613 INFO  ISManager       Server's Id is a1eb1e42-2c06-4535-9598-fb5358777a4c
+23:09:07,651 INFO  ISManager       AppEngine (Account, a1eb1e42-2c06-4535-9598-fb5358777a4c) joined the network.
+23:09:07,820 INFO  Server          Listening at port 8080...
+23:09:02,040 WARN  XmlData         'Assassin Katana' and 'Corrupted Cleaver' has the same ID of 0x0f14!
+23:09:02,205 INFO  XmlData         476 Tiles
+23:09:02,205 INFO  XmlData         3117 Objects
+23:09:07,910 INFO  ISManager       Testing (World, c12642d5-ad88-4910-8e9c-5b02ebf22697) joined the network.

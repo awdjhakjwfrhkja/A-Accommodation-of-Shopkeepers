@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+
+  <Object type="0x775F" id="Asylum Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj5</File>
+      <Index>0xd7</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Dare open the doors to Bedlam's Asylum.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <Activate id="Asylum Portal">Create</Activate>
+    <feedPower>0</feedPower>
+    <DisplayId>Asylum Key</DisplayId>
+  </Object>
+
+<Object type="0xe66" id="Potion of Maxy">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj7</File>
+         <Index>0x00</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Tier>2</Tier>
+      <Description>A potion that permanently maxes your character 8/8.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="0" amount="1500">IncrementStat</Activate>
+	  <Activate stat="3" amount="1500">IncrementStat</Activate>
+	  <Activate stat="20" amount="1500">IncrementStat</Activate>
+	  <Activate stat="21" amount="1500">IncrementStat</Activate>
+	  <Activate stat="22" amount="1500">IncrementStat</Activate>
+	  <Activate stat="28" amount="1500">IncrementStat</Activate>
+	  <Activate stat="26" amount="1500">IncrementStat</Activate>
+	  <Activate stat="27" amount="1500">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>5</BagType>
+   </Object>
+   <Object type="0xe67" id="Hermit portal maker">
+         <Class>Character</Class>
+         <Enemy/>
+         <Texture>
+            <File>lofiObj6</File>
+            <Index>0xff</Index>
+         </Texture>
+         <MaxHitPoints>5000000</MaxHitPoints>
+         <XpMult>0.0</XpMult>
+         <Size>120</Size>
+         <StasisImmune/>
+   	  <StunImmune/>
+   	  <DazedImmune/>
+   	  <ParalyzeImmune/>
+   	  <NoMiniMap/>
+         <Defense>30</Defense>
+         <HitSound>monster/stone_walls_hit</HitSound>
+         <DeathSound>monster/stone_walls_hit</DeathSound>
+      </Object>
+	  <Object type="0xe68" id="Amulet of Resurrection">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x50</Index>
+    </Texture>
+    <SlotType>9</SlotType>
+    <Description>An amulet that protects the wearer from even death itself.</Description>
+    <Resurrects/>
+    <ActivateOnEquip stat="20" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="21" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="22" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="0" amount="20">IncrementStat</ActivateOnEquip>
+    <ActivateOnEquip stat="3" amount="20">IncrementStat</ActivateOnEquip>
+    <BagType>6</BagType>
+  </Object>
+  <Object type="0xe69" id="Void Portal">
+    <Class>Portal</Class>
+    <IntergamePortal/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xe3</Index>
+    </Texture>
+    <DisplayId>Void Portal</DisplayId>
+  </Object>
+  <Object type="0xe71" id="Void Key">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xe1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A key which spawns the Locked Void portal, so you will need a Void Incantation to open it.</Description>
+    <Sound>use_key</Sound>
+    <Consumable/>
+    <Soulbound/>
+    <Activate id="Void Portal">Create</Activate>
+    <DisplayId>Void Key</DisplayId>
+  </Object>
+  
+  
+  <Object type="0xe72" id="Oryx 2">
+    <DisplayId>Oryx the mad god</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>37</Index>
+    </AnimatedTexture>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/medusa_hit</DeathSound>
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <Size>120</Size>
+    <Defense>10000000</Defense>
+    <XpMult>0.001</XpMult>
+  </Object>
+  <Object type="0xe73" id="Oryx Evolve1">
+    <DisplayId>Oryx the mad god</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>126</Index>
+    </AnimatedTexture>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/medusa_hit</DeathSound>
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <Size>120</Size>
+    <Defense>10000000</Defense>
+    <XpMult>0.001</XpMult>
+  </Object>
+    <Object type="0xe74" id="Oryx Evolve2">
+    <DisplayId>Oryx the mad god</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>37</Index>
+    </AnimatedTexture>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/medusa_hit</DeathSound>
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <Size>120</Size>
+    <Defense>10000000</Defense>
+    <XpMult>0.001</XpMult>
+  </Object>
+  <Object type="0xe75" id="Oryx Evolve3">
+    <DisplayId>Oryx the mad god</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>126</Index>
+    </AnimatedTexture>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/medusa_hit</DeathSound>
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <Size>120</Size>
+    <Defense>10000000</Defense>
+    <XpMult>0.001</XpMult>
+  </Object>
+  <Object type="0xe76" id="Oryx Evolve4">
+    <DisplayId>Oryx the mad god</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>37</Index>
+    </AnimatedTexture>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/medusa_hit</DeathSound>
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <Size>120</Size>
+    <Defense>10000000</Defense>
+    <XpMult>0.001</XpMult>
+  </Object>
+  <Object type="0xe77" id="Oryx Evolve5">
+    <DisplayId>Oryx the mad god</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>126</Index>
+    </AnimatedTexture>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/medusa_hit</DeathSound>
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <Size>120</Size>
+    <Defense>10000000</Defense>
+    <XpMult>0.001</XpMult>
+  </Object>
+  <Object type="0xe79" id="Oryx Evolve6">
+    <DisplayId>Oryx the mad god</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16dEncounters2</File>
+      <Index>37</Index>
+    </AnimatedTexture>
+    <HitSound>monster/night_elves_hit</HitSound>
+    <DeathSound>monster/medusa_hit</DeathSound>
+    <MaxHitPoints>10000000</MaxHitPoints>
+    <Size>120</Size>
+    <Defense>10000000</Defense>
+    <XpMult>0.001</XpMult>
+  </Object>
+  <Object type="0xe80" id="Oryx the Mad God 3">
+    <DisplayId>Oryx the mad god</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>126</Index>
+    </AnimatedTexture>
+    <HitSound>monster/oryx_hit</HitSound>
+    <DeathSound>monster/oryx_death</DeathSound>
+    <MaxHitPoints>150000</MaxHitPoints>
+    <Defense>60</Defense>
+    <Quest/>
+    <God/>
+    <Oryx/>
+    <StasisImmune/>
+    <Level>1</Level>
+    <XpMult>1</XpMult>
+    <NoArticle/>
+    <Projectile id="0">
+      <ObjectId>Fire Bolt</ObjectId>
+      <Damage>155</Damage>
+      <Speed>70</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Green Star</ObjectId>
+      <Damage>175</Damage>
+      <Speed>70</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2500</LifetimeMS>
+      <ConditionEffect duration="10">Slowed</ConditionEffect>
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Blade</ObjectId>
+      <Damage>255</Damage>
+      <Speed>100</Speed>
+      <Size>120</Size>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Purple Star</ObjectId>
+      <Damage>175</Damage>
+      <Speed>55</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="5">Blind</ConditionEffect>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>Blue Star</ObjectId>
+      <Damage>175</Damage>
+      <Speed>105</Speed>
+      <Size>120</Size>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="5">Confused</ConditionEffect>
+    </Projectile>
+    <Projectile id="5">
+      <ObjectId>Grey Star</ObjectId>
+      <Damage>175</Damage>
+      <Speed>45</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ConditionEffect duration="3">Quiet</ConditionEffect>
+    </Projectile>
+    <Projectile id="6">
+      <ObjectId>Red Star</ObjectId>
+      <Damage>175</Damage>
+      <Speed>55</Speed>
+      <Size>120</Size>
+      <LifetimeMS>3000</LifetimeMS>
+      <ArmorPiercing/>
+    </Projectile>
+    <Size>220</Size>
+  </Object>
+  <Object type="0xe81" id="Skeletal Knight">
+    <DisplayId>Skeletal Knight</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <HitSound>monster/oryx_hit</HitSound>
+    <DeathSound>monster/oryxsk_death</DeathSound>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>60</Defense>
+    <Quest/>
+    <God/>
+    <Oryx/>
+    <StasisImmune/>
+    <Level>1</Level>
+    <XpMult>1</XpMult>
+    <NoArticle/>
+    <Projectile id="0">
+      <ObjectId>Darkness Bolt</ObjectId>
+      <Damage>220</Damage>
+      <Speed>100</Speed>
+      <Size>100</Size>
+      <LifetimeMS>500</LifetimeMS>
+    </Projectile>
+    <Size>90</Size>
+    </Object>
+  <Object type="0xe82" id="Skeletal Knight2">
+    <DisplayId>Skeletal Knight</DisplayId>
+    <Enemy/>
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>chars16x16rEncounters</File>
+      <Index>127</Index>
+    </AnimatedTexture>
+    <HitSound>monster/oryx_hit</HitSound>
+    <DeathSound>monster/oryxsk_death</DeathSound>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <Defense>60</Defense>
+    <Quest/>
+    <God/>
+    <Oryx/>
+    <StasisImmune/>
+    <Level>1</Level>
+    <XpMult>1</XpMult>
+    <NoArticle/>
+    <Projectile id="0">
+      <ObjectId>Darkness Bolt</ObjectId>
+      <Damage>220</Damage>
+      <Speed>100</Speed>
+      <Size>100</Size>
+      <LifetimeMS>500</LifetimeMS>
+    </Projectile>
+    <Size>90</Size>
+  </Object>
+  
+  <Object type="0xe83" id="Potion of Oryx">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xe9</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Tier>2</Tier>
+    <Description>A potion that acts like one of every potions.</Description>
+    <Sound>use_potion</Sound>
+    <Activate stat="0" amount="5">IncrementStat</Activate>
+    <Activate stat="3" amount="5">IncrementStat</Activate>
+    <Activate stat="20" amount="1">IncrementStat</Activate>
+    <Activate stat="21" amount="1">IncrementStat</Activate>
+    <Activate stat="22" amount="1">IncrementStat</Activate>
+    <Activate stat="26" amount="1">IncrementStat</Activate>
+    <Activate stat="27" amount="1">IncrementStat</Activate>
+    <Activate stat="28" amount="1">IncrementStat</Activate>
+    <Consumable/>
+    <Potion/>
+    <BagType>6</BagType>
+  </Object>
+  <Object type="0xe84" id="Chamber portal maker">
+         <Class>Character</Class>
+         <Enemy/>
+         <Texture>
+            <File>lofiObj6</File>
+            <Index>0xff</Index>
+         </Texture>
+         <MaxHitPoints>5000000</MaxHitPoints>
+         <XpMult>0.0</XpMult>
+         <Size>120</Size>
+         <StasisImmune/>
+   	  <StunImmune/>
+   	  <DazedImmune/>
+   	  <ParalyzeImmune/>
+   	  <NoMiniMap/>
+         <Defense>30</Defense>
+         <HitSound>monster/stone_walls_hit</HitSound>
+         <DeathSound>monster/stone_walls_hit</DeathSound>
+      </Object>
+
+   <Object type="0xf45" id="Asylum Door">
+    <Class>Wall</Class>
+	  <Enemy/>
+     <Texture>
+        <File>lostHallsObjects8x8</File>
+        <Index>0xcd</Index>
+     </Texture>
+      <Top>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xce</Index>
+         </Texture>
+      </Top>
+	    <MaxHitPoints>5000</MaxHitPoints>
+      <XpMult>0</XpMult>
+      <Static/>
+      <FullOccupy/>
+      <OccupySquare/>
+      <EnemyOccupySquare/>
+      <BlocksSight/>
+   </Object>
+  
+  <Object type="0xf46" id="Asylum Button">
+    <Class>Character</Class>
+    <Enemy/>
+    <NoMiniMap/>
+    <DrawOnGround/>
+    <StasisImmune/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0x02</Index>
+    </Texture>
+    <AltTexture id="1">
+      <Texture>
+        <File>lofiObj7</File>
+        <Index>0x03</Index>
+      </Texture>
+    </AltTexture>
+    <MaxHitPoints>10</MaxHitPoints>
+    <XpMult>0.0</XpMult>
+    <Size>125</Size>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+  <Object type="0xf47" id="Asylum spawner">
+    <Class>Character</Class>
+    <Enemy/>
+    <NoMiniMap/>
+    <StasisImmune/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xff</Index>
+    </Texture>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+
+  <Object type="0xf55" id="ADSU">
+    <Class>Character</Class>
+    <Enenmy/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xff</Index>
+    </Texture>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+
+  <Object type="0xc89" id="ADU">
+    <Class>Character</Class>
+    <Enenmy/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xff</Index>
+    </Texture>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+
+  <Object type="0xf56" id="ADSD">
+    <Class>Wall</Class>
+    <Enenmy/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xff</Index>
+    </Texture>
+    <Static/>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+
+  <Object type="0xf60" id="ADD">
+    <Class>Character</Class>
+    <Enenmy/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xff</Index>
+    </Texture>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+
+  <Object type="0xf57" id="ADSL">
+    <Class>Wall</Class>
+    <Enenmy/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xff</Index>
+    </Texture>
+    <Static/>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+
+  <Object type="0xf61" id="ADL">
+    <Class>Character</Class>
+    <Enenmy/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xff</Index>
+    </Texture>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+
+  <Object type="0xf58" id="ADSR">
+    <Class>Wall</Class>
+    <Enenmy/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xff</Index>
+    </Texture>
+    <Static/>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+
+  <Object type="0xf62" id="ADR">
+    <Class>Character</Class>
+    <Enenmy/>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0xff</Index>
+    </Texture>
+    <MaxHitPoints>5000</MaxHitPoints>
+    <ShadowSize>0</ShadowSize>
+  </Object>
+
+  <Object type="0xf59" id="Asylum remover">
+    <Class>Character</Class>
+    <Enemy/>
+    <AnimatedTexture>
+      <File>chars8x8rEncounters</File>
+      <Index>1</Index>
+    </AnimatedTexture>
+    <Size>0</Size>
+    <ShadowSize>0</ShadowSize>
+    <MaxHitPoints>10000</MaxHitPoints>
+    <Defense>20</Defense>
+    <XpMult>0</XpMult>
+    <NoMiniMap/>
+  </Object>
+
+  <Object type="0xf50" id="Chlomaki">
+    <DisplayId>Chlomaki the Ancient Witch</DisplayId>
+    <Class>Character</Class>
+    <Enemy/>
+    <Size>200</Size>
+    <StunImmune/>
+   	<DazedImmune/>
+   	<ParalyzeImmune/>
+    <AnimatedTexture>
+      <File>Custom16x16</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <AltTexture id="1">
+      <Texture>
+        <File>mountainTempleObjects16x16</File>
+        <Index>0x54</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="2">
+      <Texture>
+        <File>mountainTempleObjects16x16</File>
+        <Index>0x55</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="3">
+      <Texture>
+        <File>mountainTempleObjects16x16</File>
+        <Index>0x56</Index>
+      </Texture>
+    </AltTexture>
+    <AltTexture id="4">
+      <AnimatedTexture>
+        <File>Custom16x16</File>
+        <Index>1</Index>
+      </AnimatedTexture>
+    </AltTexture>
+    <MaxHitPoints>100000</MaxHitPoints>
+    <XpMult>50</XpMult>
+    <Defense>60</Defense>
+  <Projectile id="0">
+      <ObjectId>WitchShot1</ObjectId>
+      <Damage>120</Damage>
+      <Speed>70</Speed>
+      <Size>120</Size>
+      <LifetimeMS>2500</LifetimeMS>
+    </Projectile>
+  <Projectile id="1">
+      <ObjectId>WitchShot2</ObjectId>
+      <Damage>155</Damage>
+      <Speed>40</Speed>
+      <Size>120</Size>
+      <LifetimeMS>5000</LifetimeMS>
+    </Projectile>
+  </Object>
+
+  <Object type="0xa085" id="WitchShot1">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0x30</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  
+  <Object type="0xa086" id="WitchShot2">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0x31</Index>
+    </Texture>
+    <Rotation>45</Rotation>
+  </Object>
+
+  <Object type="0xf51" id="Rampage">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj7</File>
+      <Index>0x40</Index>
+    </Texture>
+    <SlotType>1</SlotType>
+    <Description>A sword tipped with the ichor of the god of rage, this blade is able to cause anyone to have a riot at will.</Description>
+    <RateOfFire>0.8</RateOfFire>
+    <OldSound>weapon/mithril_sword</OldSound>
+    <Projectile>
+      <ObjectId>Ramproj</ObjectId>
+      <Speed>80</Speed>
+      <LifetimeMS>700</LifetimeMS>
+      <Amplitude>0.4</Amplitude>
+      <Frequency>1.2</Frequency>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>175</MaxDamage>
+    </Projectile>
+    <BagType>6</BagType>
+    <NumProjectiles>3</NumProjectiles>
+    <ArcGap>7</ArcGap>
+    <FameBonus>7</FameBonus>
+    <OldSound>bladeSwing</OldSound>
+    <LG/>
+  </Object>
+
+  <Object type="0xa087" id="Ramproj">
+    <Class>Projectile</Class>
+    <RandomTexture>
+      <Texture>
+        <File>lofiObj7</File>
+        <Index>0x41</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj7</File>
+        <Index>0x42</Index>
+      </Texture>
+      <Texture>
+        <File>lofiObj7</File>
+        <Index>0x41</Index>
+      </Texture>
+    </RandomTexture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+
+  <Object type="0xc8f" id="Marble Seal">
+    <DisplayId>Marble Seal</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lostHallsObjects8x8</File>
+      <Index>39</Index>
+    </Texture>
+    <Usable/>
+    <SlotType>12</SlotType>
+    <BagType>6</BagType>
+    <FameBonus>6</FameBonus>
+    <MpCost>135</MpCost>
+    <Description>
+      A seal made from the Marble Colossus' head. The power of a pure and mighty paladin still remains within.
+    </Description>
+    <ExtraTooltipData>
+      <EffectInfo name="" description="Summon an Eye of Marble for 4.5 seconds"/>
+      <EffectInfo name="Eye Effect" description="Armored within 4 sqrs"/>
+      <EffectInfo name="Eye Effect" description="Damaging within 4 sqrs"/>
+    </ExtraTooltipData>
+    <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+    <Activate>MarblePillar</Activate>
+    <Cooldown>5.5</Cooldown>
+    <feedPower>1300</feedPower>
+    <Soulbound/>
+  </Object>
+
+  <Object type="0xc9b" id="Oryx's Arena Key">
+    <Class>Equipment</Class>
+    <Item />
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x5e</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>Fame, fortune, Death... Know what you're getting into before unlocking that door.</Description>
+    <Sound>use_key</Sound>
+    <Consumable />
+    <BagType>4</BagType>
+    <Activate dungeonName="DeathArena" lockedName="Locked Oryx's Arena Portal">UnlockPortal</Activate>
+    <feedPower>500</feedPower>
+    <DisplayId>Oryx's Arena Key</DisplayId>
+  </Object>
+
+  <Object type="0xc9d" id="Eye of Cthulhu">
+    <DisplayId>Bedlam - God of Chaos</DisplayId>
+    <Enemy />
+    <Class>Character</Class>
+    <AnimatedTexture>
+      <File>Cthulhu</File>
+      <Index>0</Index>
+    </AnimatedTexture>
+    <HitSound>monster/oryx_hit</HitSound>
+    <DeathSound>monster/oryx_death</DeathSound>
+    <Size>100</Size>
+    <MaxHitPoints>80000</MaxHitPoints>
+    <Defense>200</Defense>
+    <Quest />
+    <God />
+    <StunImmune />
+    <ParalyzeImmune />
+    <Level>1</Level>
+    <XpMult>1</XpMult>
+    <NoArticle />
+    <Projectile id="0">
+      <ObjectId>Fire Bolt</ObjectId>
+      <Damage>100</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>2500</LifetimeMS>
+      <Boomerang />
+      <Amplitude>1</Amplitude>
+      <Frequency>2</Frequency>
+    </Projectile>
+    <Projectile id="1">
+      <ObjectId>Star</ObjectId>
+      <Damage>150</Damage>
+      <Speed>30</Speed>
+      <LifetimeMS>9000</LifetimeMS>
+      <ConditionEffect duration="5">Slowed</ConditionEffect>
+      <MultiHit />
+      <Boomerang />
+    </Projectile>
+    <Projectile id="2">
+      <ObjectId>Blade</ObjectId>
+      <Damage>100</Damage>
+      <Speed>150</Speed>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+    <Projectile id="3">
+      <ObjectId>Purple Star</ObjectId>
+      <Damage>80</Damage>
+      <Speed>40</Speed>
+      <LifetimeMS>6000</LifetimeMS>
+      <ConditionEffect duration="5">Blind</ConditionEffect>
+      <ConditionEffect duration="5">Darkness</ConditionEffect>
+      <Size>80</Size>
+    </Projectile>
+    <Projectile id="4">
+      <ObjectId>BedlamProjectile360</ObjectId>
+      <Damage>120</Damage>
+      <Speed>80</Speed>
+      <LifetimeMS>1200</LifetimeMS>
+      <ConditionEffect duration="10">Quiet</ConditionEffect>
+      <Size>125</Size>
+    </Projectile>
+  </Object>  
+
+</Objects>

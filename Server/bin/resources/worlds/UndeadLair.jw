@@ -1,0 +1,1 @@
+{"id":0,"isLimbo":false,"name":"UndeadLair","sbName":"Undead Lair","difficulty":0,"background":0,"blocking":1,"restrictTp":false,"showDisplays":false,"music":["Udl2", "UndeadLair"],"portals":[0x071a],"maps":["UndeadLair.jm"]}

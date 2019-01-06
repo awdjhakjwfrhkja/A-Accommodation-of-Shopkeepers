@@ -1,0 +1,33 @@
+[{
+	"slot": 3, 
+	"linkType": 1, 
+	"title": "Change", 
+	"image": "https://cdn.discordapp.com/attachments/167769661902028801/208722688120848386/unknown.png", 
+	"priority": 759, 
+	"linkDetail": "", 
+	"platform": "kabam.com,kongregate,steam,rotmg", 
+	"startTime": 1413334800000, 
+	"endTime": 1914022340000
+}, 
+{
+	"slot": 2, 
+	"linkType": 1, 
+	"title": "Change", 
+	"image": "https://cdn.discordapp.com/attachments/167769661902028801/208722673704894467/unknown.png", 
+	"priority": 756, 
+	"linkDetail": "", 
+	"platform": "kabam.com,kongregate,steam,rotmg", 
+	"startTime": 1412730000000, 
+	"endTime": 1913417540000
+}, 
+{
+	"slot": 1, 
+	"linkType": 1, 
+	"title": "Join our Discord channel", 
+	"image": "https://cdn.discordapp.com/attachments/466757751603724288/479782528257884170/Lunar_Realms.png", 
+	"priority": 757, 
+	"linkDetail": "https://discord.gg/3UNywEr", 
+	"platform": "kabam.com,kongregate,steam,rotmg", 
+	"startTime": 1413199137000, 
+	"endTime": 1913935940000
+}]
