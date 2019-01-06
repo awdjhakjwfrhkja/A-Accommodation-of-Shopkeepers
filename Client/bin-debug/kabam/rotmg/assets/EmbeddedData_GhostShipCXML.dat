@@ -1,0 +1,2969 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0x0e32" id="Davy Jones">
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>26</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>26</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="2">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>26</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="3">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>27</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
+      </AltTexture>
+      <AltTexture id="4">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>28</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="5">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>29</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <AltTexture id="6">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>30</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <HitSound>monster/pirates_hit</HitSound>
+      <DeathSound>monster/skull_shrine_death</DeathSound>
+      <Size>0</Size>
+      <MaxHitPoints>16000</MaxHitPoints>
+      <StasisImmune/>
+      <Defense>35</Defense>
+      <God/>
+      <Quest/>
+      <XpMult>1.75</XpMult>
+      <KeepDamageRecord/>
+      <Projectile id="0">
+         <ObjectId>Ghost Boss Slash</ObjectId>
+         <Speed>65</Speed>
+         <Damage>130</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="4">Bleeding</ConditionEffect>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Ghost Boss Spinner</ObjectId>
+         <Speed>45</Speed>
+         <Damage>140</Damage>
+         <Size>110</Size>
+         <LifetimeMS>3600</LifetimeMS>
+         <Boomerang/>
+         <ConditionEffect duration="4">Bleeding</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x0e2d" id="Captain Summoner">
+      <Class>Character</Class>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <NoMiniMap/>
+      <MaxHitPoints>10</MaxHitPoints>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x0e50" id="Ghost Pirate Sr">
+      <Class>Character</Class>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>31</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>32</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
+      </AltTexture>
+      <NoMiniMap/>
+      <XpMult>0</XpMult>
+      <Size>0</Size>
+      <MaxHitPoints>1700</MaxHitPoints>
+      <Defense>15</Defense>
+      <HitSound>monster/ghosts_death</HitSound>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Ghost Sr Slash</ObjectId>
+         <Speed>60</Speed>
+         <Damage>80</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x0e36" id="Ghost Lanturn On">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Group>GhostShip Lamps</Group>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xac</Index>
+      </Texture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Lanturn Blast</ObjectId>
+         <Speed>40</Speed>
+         <Damage>85</Damage>
+         <LifetimeMS>600</LifetimeMS>
+         <Size>140</Size>
+         <ConditionEffect duration="2">Paralyzed</ConditionEffect>
+      </Projectile>
+      <XpMult>0.0</XpMult>
+      <Size>120</Size>
+      <ShadowColor>0xfec937a</ShadowColor>
+      <MaxHitPoints>600</MaxHitPoints>
+      <Defense>5000</Defense>
+   </Object>
+   <Object type="0x0e35" id="Ghost Lanturn Off">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Group>GhostShip Lamps</Group>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xad</Index>
+      </Texture>
+      <HitSound>monster/traps_hit</HitSound>
+      <DeathSound>spell/fire_nova</DeathSound>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Size>120</Size>
+      <Defense>2</Defense>
+   </Object>
+   <Object type="0x0e41" id="Yellow Key">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xae</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <ShadowSize>80</ShadowSize>
+      <DeathSound>weapon/obsidian_dagger</DeathSound>
+   </Object>
+   <Object type="0x0e40" id="Red Key">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xaf</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <ShadowSize>80</ShadowSize>
+      <DeathSound>weapon/obsidian_dagger</DeathSound>
+   </Object>
+   <Object type="0x0e3f" id="Green Key">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xb6</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <ShadowSize>80</ShadowSize>
+      <DeathSound>weapon/obsidian_dagger</DeathSound>
+   </Object>
+   <Object type="0x0e3e" id="Purple Key">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xb7</Index>
+      </Texture>
+      <Size>80</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+      <ShadowSize>80</ShadowSize>
+      <DeathSound>weapon/obsidian_dagger</DeathSound>
+   </Object>
+   <Object type="0x0e2e" id="Yellow Opener">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xae</Index>
+      </Texture>
+      <Size>0</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0x0e30" id="Red Opener">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xaf</Index>
+      </Texture>
+      <Size>0</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0x0e33" id="Green Opener">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xb8</Index>
+      </Texture>
+      <Size>0</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0x0e34" id="Purple Opener">
+      <Class>Character</Class>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xb9</Index>
+      </Texture>
+      <Size>0</Size>
+      <MaxHitPoints>100</MaxHitPoints>
+      <NoMiniMap/>
+   </Object>
+   <Object type="0x0e4a" id="VDoor">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xba</Index>
+      </Texture>
+      <MaxHitPoints>10</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x0e49" id="HDoor">
+      <Class>Character</Class>
+      <Enemy/>
+      <NoMiniMap/>
+      <StasisImmune/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xbb</Index>
+      </Texture>
+      <MaxHitPoints>10</MaxHitPoints>
+      <XpMult>0.0</XpMult>
+      <Size>0</Size>
+   </Object>
+   <Object type="0x0e3a" id="Violent Spirit">
+      <Class>Character</Class>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>36</Index>
+      </AnimatedTexture>
+      <HitSound>monster/flaming_skulls_hit</HitSound>
+      <DeathSound>monster/beholder_death</DeathSound>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <XpMult>0</XpMult>
+      <Enemy/>
+      <Size>0</Size>
+      <Z>0.3</Z>
+      <Flying/>
+      <Projectile>
+         <ObjectId>Ghostly Arrow</ObjectId>
+         <Speed>80</Speed>
+         <Damage>40</Damage>
+         <Size>50</Size>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x0e48" id="Lost Soul">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xbc</Index>
+      </Texture>
+      <Animation prob="1.0" period="0.0">
+         <Frame time="0.2">
+            <RandomTexture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0xbc</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0xbd</Index>
+               </Texture>
+               <Texture>
+                  <File>lofiObj3</File>
+                  <Index>0xbe</Index>
+               </Texture>
+            </RandomTexture>
+         </Frame>
+      </Animation>
+      <XpMult>0</XpMult>
+      <Size>90</Size>
+      <ShadowSize>80</ShadowSize>
+      <MaxHitPoints>500</MaxHitPoints>
+      <Defense>30</Defense>
+      <Z>0.33</Z>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Spirit Bolt</ObjectId>
+         <Damage>40</Damage>
+         <Speed>35</Speed>
+         <Size>50</Size>
+         <LifetimeMS>600</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x0e45" id="Ghost of Roger">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>33</Index>
+      </AnimatedTexture>
+      <XpMult>1.0</XpMult>
+      <Size>120</Size>
+      <MaxHitPoints>2300</MaxHitPoints>
+      <Defense>50</Defense>
+      <Z>0.15</Z>
+      <HitSound>monster/ghosts_death</HitSound>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Roger Blast</ObjectId>
+         <Speed>65</Speed>
+         <Damage>110</Damage>
+         <LifetimeMS>2000</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+      <Projectile id="1">
+         <ObjectId>Skull Bolt</ObjectId>
+         <Speed>70</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>100</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x0e47" id="Maggot Sack">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <Texture>
+         <File>invisible</File>
+         <Index>0</Index>
+      </Texture>
+      <XpMult>0</XpMult>
+      <Size>0</Size>
+      <MaxHitPoints>200</MaxHitPoints>
+   </Object>
+   <Object type="0x0e46" id="Maggot">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>30</Index>
+      </AnimatedTexture>
+      <XpMult>1.0</XpMult>
+      <Size>40</Size>
+      <ShadowSize>85</ShadowSize>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Defense>2</Defense>
+      <HitSound>monster/blobs_hit</HitSound>
+      <DeathSound>monster/blobs_death</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Invisible</ObjectId>
+         <Damage>30</Damage>
+         <Speed>0</Speed>
+         <Size>80</Size>
+         <LifetimeMS>200</LifetimeMS>
+         <ConditionEffect duration="3">Sick</ConditionEffect>
+      </Projectile>
+   </Object>
+   <Object type="0x0e44" id="School of Ghostfish">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>31</Index>
+      </AnimatedTexture>
+      <XpMult>1.0</XpMult>
+      <Size>110</Size>
+      <MaxHitPoints>1600</MaxHitPoints>
+      <Defense>3</Defense>
+      <Z>0.1</Z>
+      <HitSound>monster/cubes_death</HitSound>
+      <DeathSound>monster/dark_elves_death</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Fish Shot</ObjectId>
+         <Speed>40</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>1300</LifetimeMS>
+         <Size>80</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x0e43" id="Zombie Pirate Sr">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>34</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars16x16rEncounters</File>
+            <Index>35</Index>
+         </AnimatedTexture>
+      </AltTexture>
+      <BloodProb>0.5</BloodProb>
+      <BloodColor>0x50d71b</BloodColor>
+      <XpMult>1.0</XpMult>
+      <Size>110</Size>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <Defense>17</Defense>
+      <HitSound>monster/pirates_hit</HitSound>
+      <DeathSound>monster/undead_hobbits_death</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Zombie Shot</ObjectId>
+         <Speed>55</Speed>
+         <Damage>66</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>110</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x0e42" id="Zombie Pirate Jr">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>32</Index>
+      </AnimatedTexture>
+      5171081
+      <XpMult>1.0</XpMult>
+      <Size>110</Size>
+      <MaxHitPoints>700</MaxHitPoints>
+      <Defense>11</Defense>
+      <HitSound>monster/pirates_hit</HitSound>
+      <DeathSound>monster/undead_hobbits_death</DeathSound>
+      <BloodProb>0.5</BloodProb>
+      <BloodColor>0x50d71b</BloodColor>
+      <Projectile id="0">
+         <ObjectId>Zombie Shot</ObjectId>
+         <Speed>33</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>80</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x0e31" id="Lil' Ghost Pirate">
+      <Class>Character</Class>
+      <Group>GhostShip Group</Group>
+      <Enemy/>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>33</Index>
+      </AnimatedTexture>
+      <AltTexture id="1">
+         <AnimatedTexture>
+            <File>chars8x8rEncounters</File>
+            <Index>33</Index>
+         </AnimatedTexture>
+         <Effect particle="SwirlingMist" cooldown="0.2">XMLEffect</Effect>
+      </AltTexture>
+      <NoMiniMap/>
+      <XpMult>0.005</XpMult>
+      <Size>0</Size>
+      <MaxHitPoints>700</MaxHitPoints>
+      <Defense>0</Defense>
+      <HitSound>monster/ghosts_death</HitSound>
+      <DeathSound>monster/flaming_skulls_hit</DeathSound>
+      <Projectile id="0">
+         <ObjectId>Ghost Swipe</ObjectId>
+         <Speed>66</Speed>
+         <Damage>50</Damage>
+         <LifetimeMS>1700</LifetimeMS>
+         <Size>90</Size>
+      </Projectile>
+   </Object>
+   <Object type="0x0e2f" id="GhostShip Rat">
+      <Class>Character</Class>
+      <Enemy/>
+      <DisplayId>Ghost Ship Rat</DisplayId>
+      <AnimatedTexture>
+         <File>chars8x8rEncounters</File>
+         <Index>34</Index>
+      </AnimatedTexture>
+      <HitSound>monster/bats_hit</HitSound>
+      <DeathSound>monster/flayers_hit</DeathSound>
+      <XpMult>1.0</XpMult>
+      <Size>100</Size>
+      <MaxHitPoints>650</MaxHitPoints>
+      <Defense>5</Defense>
+      <Projectile id="0">
+         <ObjectId>Rat Tail</ObjectId>
+         <Speed>45</Speed>
+         <Damage>45</Damage>
+         <LifetimeMS>1500</LifetimeMS>
+         <Size>100</Size>
+         <ConditionEffect duration="1">Stunned</ConditionEffect>
+      </Projectile>
+   </Object>
+      <Object type="0xb01e" id="LH Lit Candle Wall 1">
+         <Class>Wall</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>19</Index>
+         </Texture>
+         <Top>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>23</Index>
+            </Texture>
+         </Top>
+         <Animation prob="0.4" period="0.4">
+            <Frame time="0.1">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>20</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <Static/>
+         <FullOccupy/>
+         <OccupySquare/>
+         <EnemyOccupySquare/>
+         <BlocksSight/>
+      </Object>
+      <Object type="0xb01f" id="LH Lit Candle Wall 2">
+         <Class>Wall</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>21</Index>
+         </Texture>
+         <Top>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>23</Index>
+            </Texture>
+         </Top>
+         <Animation prob="0.4" period="0.4">
+            <Frame time="0.1">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>22</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <Static/>
+         <FullOccupy/>
+         <OccupySquare/>
+         <EnemyOccupySquare/>
+         <BlocksSight/>
+      </Object>
+      <Object type="0xb020" id="LH Unlit Candle Wall">
+         <Class>Wall</Class>
+         <RandomTexture>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>17</Index>
+            </Texture>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>18</Index>
+            </Texture>
+         </RandomTexture>
+         <Top>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>23</Index>
+            </Texture>
+         </Top>
+         <Static/>
+         <FullOccupy/>
+         <OccupySquare/>
+         <EnemyOccupySquare/>
+         <BlocksSight/>
+      </Object>
+      <Object type="0xb021" id="LH Main Wall">
+         <Class>Wall</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>16</Index>
+         </Texture>
+         <Top>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>23</Index>
+            </Texture>
+         </Top>
+         <Static/>
+         <FullOccupy/>
+         <OccupySquare/>
+         <EnemyOccupySquare/>
+         <BlocksSight/>
+      </Object>
+      <Object type="0xb095" id="LH Marble Wall">
+         <Class>Wall</Class>
+         <Enemy/>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x02</Index>
+         </Texture>
+         <Top>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>0x02</Index>
+            </Texture>
+         </Top>
+         <MaxHitPoints>7000</MaxHitPoints>
+         <XpMult>0</XpMult>
+         <Static/>
+         <FullOccupy/>
+         <OccupySquare/>
+         <EnemyOccupySquare/>
+         <BlocksSight/>
+      </Object>
+      <Object type="0xb022" id="LH Remains">
+         <Class>GameObject</Class>
+         <RandomTexture>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>24</Index>
+            </Texture>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>25</Index>
+            </Texture>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>26</Index>
+            </Texture>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>27</Index>
+            </Texture>
+         </RandomTexture>
+         <Size>85</Size>
+         <Static/>
+      </Object>
+      <Object type="0xb05e" id="LH Cult Wall">
+         <Class>Wall</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x2b</Index>
+         </Texture>
+         <Top>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>0x2d</Index>
+            </Texture>
+         </Top>
+         <Static/>
+         <FullOccupy/>
+         <OccupySquare/>
+         <EnemyOccupySquare/>
+         <BlocksSight/>
+      </Object>
+      <Object type="0xb05f" id="LH Cult Bloody Wall">
+         <Class>Wall</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x2c</Index>
+         </Texture>
+         <Top>
+            <Texture>
+               <File>lostHallsObjects8x8</File>
+               <Index>0x2d</Index>
+            </Texture>
+         </Top>
+         <Static/>
+         <FullOccupy/>
+         <OccupySquare/>
+         <EnemyOccupySquare/>
+         <BlocksSight/>
+      </Object>
+      <Object type="0xb064" id="LH Pent 1">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x30</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb065" id="LH Pent 2">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x31</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb066" id="LH Pent 3">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x32</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb067" id="LH Pent 4">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x33</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb068" id="LH Pent 5">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x34</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb069" id="LH Pent 6">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x35</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb06a" id="LH Pent 7">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x36</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb06b" id="LH Pent 8">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x37</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb06c" id="LH Pent 9">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x38</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb06d" id="LH Pent 10">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x39</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb06e" id="LH Pent 11">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x3a</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb06f" id="LH Pent 12">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x3b</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb070" id="LH Pent 13">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x3c</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb071" id="LH Pent 14">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x3d</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb072" id="LH Pent 15">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x3e</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb073" id="LH Pent 16">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x3f</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb074" id="LH Pent 17">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x40</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb075" id="LH Pent 18">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x41</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb076" id="LH Pent 19">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x42</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb077" id="LH Pent 20">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x43</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb078" id="LH Pent 21">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x44</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb079" id="LH Pent 22">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x45</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb07a" id="LH Pent 23">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x46</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb07b" id="LH Pent 24">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x47</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb07c" id="LH Pent 25">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x48</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb07d" id="LH Pent 26">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x49</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb07e" id="LH Pent 27">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x4a</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb07f" id="LH Pent 28">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x4b</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb080" id="LH Pent 29">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x4c</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb081" id="LH Pent 30">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x4d</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb082" id="LH Pent 31">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x4e</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb083" id="LH Pent 32">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x4f</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb084" id="LH Pent 33">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x50</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb085" id="LH Pent 34">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x51</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb086" id="LH Pent 35">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x52</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb087" id="LH Pent 36">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x53</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb088" id="LH Pent 37">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x54</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb089" id="LH Pent 38">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x55</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb08a" id="LH Pent 39">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x56</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb08b" id="LH Pent 40">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x57</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb08c" id="LH Pent 41">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x58</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb08d" id="LH Pent 42">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x59</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb08e" id="LH Pent 43">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x5a</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb08f" id="LH Pent 44">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x5b</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb090" id="LH Pent 45">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x5c</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb091" id="LH Pent 46">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x5d</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb092" id="LH Pent 47">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x5e</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb093" id="LH Pent 48">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x5f</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb094" id="LH Pent 49">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x60</Index>
+         </Texture>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb0e9" id="LH Big Candle">
+         <Class>GameObject</Class>
+         <Size>80</Size>
+         <ShadowSize>60</ShadowSize>
+         <ShadowColor>0xf79f4c</ShadowColor>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x92</Index>
+         </Texture>
+         <Animation prob="1.0" period="0.0">
+            <Frame time="0.1">
+               <RandomTexture>
+                  <Texture>
+                     <File>lostHallsObjects8x8</File>
+                     <Index>0x92</Index>
+                  </Texture>
+                  <Texture>
+                     <File>lostHallsObjects8x8</File>
+                     <Index>0x93</Index>
+                  </Texture>
+                  <Texture>
+                     <File>lostHallsObjects8x8</File>
+                     <Index>0x94</Index>
+                  </Texture>
+               </RandomTexture>
+            </Frame>
+         </Animation>
+      </Object>
+      <Object type="0xb0ea" id="LH Small Candle">
+         <Class>GameObject</Class>
+         <Size>80</Size>
+         <ShadowSize>60</ShadowSize>
+         <ShadowColor>0xf79f4c</ShadowColor>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0x95</Index>
+         </Texture>
+         <Animation prob="1.0" period="0.0">
+            <Frame time="0.1">
+               <RandomTexture>
+                  <Texture>
+                     <File>lostHallsObjects8x8</File>
+                     <Index>0x96</Index>
+                  </Texture>
+                  <Texture>
+                     <File>lostHallsObjects8x8</File>
+                     <Index>0x95</Index>
+                  </Texture>
+                  <Texture>
+                     <File>lostHallsObjects8x8</File>
+                     <Index>0x97</Index>
+                  </Texture>
+               </RandomTexture>
+            </Frame>
+         </Animation>
+      </Object>
+      <Object type="0xb02f" id="LH Cult Prop1">
+         <Class>GameObject</Class>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xb8</Index>
+         </Texture>
+      </Object>
+      <Object type="0xb031" id="LH Cult Prop2">
+         <Class>GameObject</Class>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xb9</Index>
+         </Texture>
+      </Object>
+      <Object type="0xb032" id="LH Cult Prop3">
+         <Class>GameObject</Class>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xba</Index>
+         </Texture>
+      </Object>
+      <Object type="0xb0fb" id="LH Cult Prop4">
+         <Class>GameObject</Class>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xbb</Index>
+         </Texture>
+      </Object>
+      <Object type="0xb0fc" id="LH Cult Prop5">
+         <Class>GameObject</Class>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects16x16</File>
+            <Index>0x20</Index>
+         </Texture>
+      </Object>
+      <Object type="0xb0fd" id="LH Cult Prop6">
+         <Class>GameObject</Class>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects16x16</File>
+            <Index>0x21</Index>
+         </Texture>
+      </Object>
+      <Object type="0xb0fe" id="LH Cult Prop7">
+         <Class>GameObject</Class>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects16x16</File>
+            <Index>0x22</Index>
+         </Texture>
+      </Object>
+      <Object type="0xb0ff" id="LH Cult Prop8">
+         <Class>GameObject</Class>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects16x16</File>
+            <Index>0x23</Index>
+         </Texture>
+      </Object>
+      <Object type="0xb100" id="LH Cult Prop9">
+         <Class>GameObject</Class>
+         <Static/>
+         <Texture>
+            <File>lostHallsObjects16x16</File>
+            <Index>0x24</Index>
+         </Texture>
+      </Object>
+      <Object type="0xb10d" id="LH Rift 0">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD0</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x100</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x130</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x160</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x130</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x100</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D0</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb10e" id="LH Rift 1">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD1</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x101</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x131</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x161</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x131</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x101</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D1</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb10f" id="LH Rift 2">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD2</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x102</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x132</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x162</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x132</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x102</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D2</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb110" id="LH Rift 3">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD3</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x103</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x133</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x163</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x133</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x103</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D3</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb111" id="LH Rift 4">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD4</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x104</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x134</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x164</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x134</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x104</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D4</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb112" id="LH Rift 5">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD5</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x105</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x135</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x165</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x135</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x105</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D5</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb113" id="LH Rift 6">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD6</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x106</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x136</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x166</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x136</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x106</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D6</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb114" id="LH Rift 7">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD7</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x107</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x137</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x167</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x137</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x107</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D7</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb116" id="LH Rift 8">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD8</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x108</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x138</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x168</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x138</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x108</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D8</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb117" id="LH Rift 9">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xD9</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x109</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x139</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x169</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x139</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x109</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0D9</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb118" id="LH Rift A">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xDA</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x16A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0DA</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb119" id="LH Rift B">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xDB</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x16B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0DB</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb11a" id="LH Rift C">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xDC</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x16C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0DC</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb11b" id="LH Rift D">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xDD</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x16D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0DD</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb11c" id="LH Rift E">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xDE</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x16E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0DE</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb11d" id="LH Rift F">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xDF</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x16F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x13F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x10F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0DF</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb11e" id="LH Rift 10">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE0</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x110</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x140</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x170</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x140</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x110</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E0</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb11f" id="LH Rift 11">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE1</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x111</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x141</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x171</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x141</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x111</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E1</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb120" id="LH Rift 12">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE2</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x112</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x142</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x172</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x142</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x112</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E2</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb121" id="LH Rift 13">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE3</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x113</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x143</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x173</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x143</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x113</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E3</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb122" id="LH Rift 14">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE4</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x114</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x144</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x174</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x144</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x114</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E4</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb123" id="LH Rift 15">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE5</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x115</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x145</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x175</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x145</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x115</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E5</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb124" id="LH Rift 16">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE6</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x116</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x146</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x176</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x146</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x116</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E6</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb125" id="LH Rift 17">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE7</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x117</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x147</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x177</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x147</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x117</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E7</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb126" id="LH Rift 18">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE8</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x118</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x148</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x178</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x148</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x118</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E8</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb127" id="LH Rift 19">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xE9</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x119</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x149</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x179</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x149</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x119</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0E9</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb128" id="LH Rift 1A">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xEA</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x17A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11A</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0EA</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb129" id="LH Rift 1B">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xEB</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x17B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11B</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0EB</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb12a" id="LH Rift 1C">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xEC</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x17C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11C</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0EC</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb12b" id="LH Rift 1D">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xED</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x17D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11D</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0ED</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb12c" id="LH Rift 1E">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xEE</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x17E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11E</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0EE</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb12d" id="LH Rift 1F">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xEF</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x17F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x14F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x11F</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0EF</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb12e" id="LH Rift 20">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xF0</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x120</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x150</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x180</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x150</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x120</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0F0</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb12f" id="LH Rift 21">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xF1</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x121</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x151</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x181</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x151</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x121</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0F1</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb130" id="LH Rift 22">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xF2</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x122</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x152</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x182</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x152</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x122</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0F2</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+      <Object type="0xb131" id="LH Rift 23">
+         <Class>GameObject</Class>
+         <Texture>
+            <File>lostHallsObjects8x8</File>
+            <Index>0xF3</Index>
+         </Texture>
+         <Animation sync="true" prob="1" period="2.4">
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x123</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x153</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x183</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x153</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x123</Index>
+               </Texture>
+            </Frame>
+            <Frame time="0.4">
+               <Texture>
+                  <File>lostHallsObjects8x8</File>
+                  <Index>0x0F3</Index>
+               </Texture>
+            </Frame>
+         </Animation>
+         <DrawOnGround/>
+         <Static/>
+      </Object>
+</Objects>
