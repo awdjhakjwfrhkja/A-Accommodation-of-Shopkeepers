@@ -163,7 +163,8 @@ namespace wServer.logic
                     new ItemLoot("Pixie-Enchanted Sword", 0.01),
                     new ItemLoot("Seal of the Enchanted Forest", 0.01),
                     new ItemLoot("Ring of Pure Wishes", 0.01),
-                    new ItemLoot("Wine Cellar Incantation", 0.01)
+                    new ItemLoot("Wine Cellar Incantation", 0.01),
+                    new ItemLoot("The Sun Tarot Card", 0.04)
                     )
             )
             .Init("Gigacorn",
@@ -190,6 +191,7 @@ namespace wServer.logic
                     new ItemLoot("Potion of Wisdom", 0.1),
                     new ItemLoot("Yellow Gumball", 0.3),
                     new ItemLoot("Green Gumball", 0.3),
+                    new ItemLoot("Gigacorn Pet Stone", 0.002),
                     new ItemLoot("Blue Gumball", 0.3),
                     new ItemLoot("Red Gumball", 0.3),
                     new ItemLoot("Purple Gumball", 0.3),
@@ -198,7 +200,8 @@ namespace wServer.logic
                     new ItemLoot("Pixie-Enchanted Sword", 0.01),
                     new ItemLoot("Seal of the Enchanted Forest", 0.01),
                     new ItemLoot("Ring of Pure Wishes", 0.01),
-                    new ItemLoot("Wine Cellar Incantation", 0.01)
+                    new ItemLoot("Wine Cellar Incantation", 0.01),
+                    new ItemLoot("The Sun Tarot Card", 0.04)
                 )
             )
         .Init("Candyland Boss Spawner",
@@ -266,7 +269,8 @@ namespace wServer.logic
                 new ItemLoot("Blue Gumball", 0.3),
                 new ItemLoot("Red Gumball", 0.3),
                 new ItemLoot("Purple Gumball", 0.3),
-                new ItemLoot("Rock Candy", 0.2)
+                new ItemLoot("Rock Candy", 0.2),
+                new ItemLoot("Candy Ring", 0.01)
                 )
             )
         .Init("Cupcake",

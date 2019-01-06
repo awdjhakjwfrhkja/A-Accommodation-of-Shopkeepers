@@ -66,6 +66,7 @@ namespace wServer.logic
                     ),
                 new Threshold(0.025,
                     new ItemLoot("Dagger of the Hasteful Rabbit", 0.05),
+                    new ItemLoot("Wander of Egg-cellence", 0.05),
                     new ItemLoot("Potion of Attack", 0.05),
                     new ItemLoot("Potion of Defense", 0.05),
                     new ItemLoot("Potion of Vitality", 0.05),
