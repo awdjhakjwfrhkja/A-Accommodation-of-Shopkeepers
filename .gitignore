@@ -24,3 +24,5 @@ Server/server/obj/Debug/server.pdb
 Server/wServer/obj/Debug/wServer.csprojAssemblyReference.cache
 Server/wServer/obj/Debug/wServer.exe
 Server/wServer/obj/Debug/wServer.pdb
+Client/bin-debug/WebMain.swf
+Client/.idea/workspace.xml
