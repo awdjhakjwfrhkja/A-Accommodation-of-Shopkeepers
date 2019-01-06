@@ -47,7 +47,6 @@ C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Se
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\bin\RemoteLogger.exe.config
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\bin\RemoteLogger.exe
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\bin\RemoteLogger.pdb
-C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RemoteLogger\obj\Debug\RemoteLogger.csprojAssemblyReference.cache
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RemoteLogger\obj\Debug\RemoteLogger.csproj.CoreCompileInputs.cache
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RemoteLogger\obj\Debug\RemoteLogger.csproj.CopyComplete
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RemoteLogger\obj\Debug\RemoteLogger.exe

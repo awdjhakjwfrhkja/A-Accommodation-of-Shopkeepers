@@ -45,7 +45,6 @@ C:\Users\philip.dahlgren\Desktop\Programmering\Lunar Source\Lunar\RotMG-Dungeon-
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RotMG-Dungeon-Generator\DungeonGen\bin\Debug\DungeonGen.dll
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RotMG-Dungeon-Generator\DungeonGen\bin\Debug\DungeonGen.pdb
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RotMG-Dungeon-Generator\DungeonGen\bin\Debug\RotMG.Common.dll
-C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RotMG-Dungeon-Generator\DungeonGen\obj\Debug\DungeonGen.csprojAssemblyReference.cache
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RotMG-Dungeon-Generator\DungeonGen\obj\Debug\DungeonGen.csproj.CoreCompileInputs.cache
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RotMG-Dungeon-Generator\DungeonGen\obj\Debug\DungeonGen.csproj.CopyComplete
 C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\RotMG-Dungeon-Generator\DungeonGen\obj\Debug\DungeonGen.dll
