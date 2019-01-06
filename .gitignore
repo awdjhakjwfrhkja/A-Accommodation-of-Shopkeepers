@@ -51,3 +51,7 @@ Server/bin/DungeonGen.pdb
 Server/bin/common.pdb
 Server/bin/common.dll
 Server/bin/DungeonGen.dll
+Server/wServer/obj/Debug/wServer.csproj.FileListAbsolute.txt
+Server/wServer/obj/Debug/wServer.csproj.CopyComplete
+Server/bin/wServer.json
+Server/bin/wServer.exe.config
