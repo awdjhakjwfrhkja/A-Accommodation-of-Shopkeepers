@@ -52,3 +52,13 @@ C:\Users\philip.dahlgren\Desktop\Programmering\Lunar Source\Lunar\wServer\obj\De
 C:\Users\philip.dahlgren\Desktop\Programmering\Lunar Source\Lunar\wServer\obj\Debug\wServer.csproj.CopyComplete
 C:\Users\philip.dahlgren\Desktop\Programmering\Lunar Source\Lunar\wServer\obj\Debug\wServer.exe
 C:\Users\philip.dahlgren\Desktop\Programmering\Lunar Source\Lunar\wServer\obj\Debug\wServer.pdb
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\bin\log4net.config
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\bin\wServer.json
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\bin\wServer.exe.config
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\bin\wServer.exe
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\bin\wServer.pdb
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\wServer\obj\Debug\wServer.csprojAssemblyReference.cache
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\wServer\obj\Debug\wServer.csproj.CoreCompileInputs.cache
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\wServer\obj\Debug\wServer.csproj.CopyComplete
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\wServer\obj\Debug\wServer.exe
+C:\Users\philip.dahlgren\Desktop\Programmering\A-Accommodation-of-Shopkeepers\Server\wServer\obj\Debug\wServer.pdb
