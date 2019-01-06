@@ -1956,7 +1956,6 @@ namespace wServer.logic
                     new ItemLoot("Large Midnight Dragon Scale Cloth", 0.1),
                     new ItemLoot("Small Midnight Dragon Scale Cloth", 0.1),
                     new ItemLoot("Wine Cellar Incantation", 0.01),
-                    new ItemLoot("The World Tarot Card", 0.04),
                     new ItemLoot("Annoying Firecracker Katana", 0.01)
                 )
             )
@@ -1979,7 +1978,6 @@ namespace wServer.logic
                     new ItemLoot("Large Midnight Dragon Scale Cloth", 0.08),
                     new ItemLoot("Small Midnight Dragon Scale Cloth", 0.08),
                     new ItemLoot("Wine Cellar Incantation", 0.018),
-                    new ItemLoot("The World Tarot Card", 0.02),
                     new ItemLoot("Annoying Firecracker Katana", 0.018)
                 )
             )

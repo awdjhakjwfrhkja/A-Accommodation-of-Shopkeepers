@@ -196,8 +196,6 @@ namespace wServer.logic
                     new ItemLoot("Wine Cellar Incantation", 0.005),
                     new ItemLoot("Golden Nut", 0.01),
                     new ItemLoot("Golden Bolt", 0.01),
-                    new ItemLoot("The Magician Tarot Card", 0.01),
-                    new ItemLoot("Robobuddy Egg", 0.05),
 
                     new TierLoot(8, ItemType.Weapon, 0.2),
                     new TierLoot(9, ItemType.Weapon, 0.15),
