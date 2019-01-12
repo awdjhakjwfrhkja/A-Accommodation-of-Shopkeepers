@@ -100,7 +100,7 @@ namespace wServer.logic.behaviors
                         (host as Enemy).HP = (host as Enemy).MaximumHP;
 
                     // DEBUG
-                    Console.WriteLine("Increasing HP by: " + amountInc + ", New HP: " + (host as Enemy).HP + ", Player Count: " + host.Owner.Players.Count);
+                    //Console.WriteLine("Increasing HP by: " + amountInc + ", New HP: " + (host as Enemy).HP + ", Player Count: " + host.Owner.Players.Count);
                 }
             }
             else

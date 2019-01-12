@@ -369,7 +369,7 @@
          <File>lofiObj3</File>
          <Index>0x466</Index>
       </Texture>
-      <MaxHitPoints>120000</MaxHitPoints>
+      <MaxHitPoints>5000</MaxHitPoints>
       <Size>160</Size>
       <XpMult>0.0</XpMult>
    </Object>

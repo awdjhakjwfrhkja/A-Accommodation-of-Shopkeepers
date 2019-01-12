@@ -128,7 +128,10 @@ namespace wServer.logic
                     new ItemLoot("Potion of Wisdom", .1),
                     new ItemLoot("Potion of Speed", .1),
                     new ItemLoot("Potion of Dexterity", .1),
-                    new ItemLoot("Shield of Ogmur", .004)
+                    new ItemLoot("Sword of the Masses", .005),
+                    new ItemLoot("Shield of Ogmur", .005),
+                    new ItemLoot("Ogre King Armor", .005),
+                    new ItemLoot("Bracelet of Strength", .005)
                     )
             )
             .Init("Protection Crystal",

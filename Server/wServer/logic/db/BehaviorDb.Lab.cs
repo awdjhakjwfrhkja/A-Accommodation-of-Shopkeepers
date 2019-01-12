@@ -10,6 +10,8 @@ namespace wServer.logic
         private _ Lab = () => Behav()  // credits to sebastianfra12 and ossimc82 :3
         .Init("Dr Terrible",
             new State(
+                new OrderOnDeath(100, "Dr Terrible Bubble", "hs"),
+                new ScaleHP(9000),
                 new RealmPortalDrop(),
                 new State("idle",
                     new PlayerWithinTransition(12, "GP"),
@@ -190,9 +192,10 @@ namespace wServer.logic
                     new ItemLoot("Potion of Wisdom", 1)
                 ),
                 new Threshold(0.1,
+                    new ItemLoot("Conducting Wand", .005),
                     new ItemLoot("Scepter of Fulmination", 0.005),
                     new ItemLoot("Robe of the Mad Scientist", 0.005),
-                    new ItemLoot("Experimental Ring", 0.01),
+                    new ItemLoot("Experimental Ring", 0.005),
                     new ItemLoot("Wine Cellar Incantation", 0.005),
                     new ItemLoot("Golden Nut", 0.01),
                     new ItemLoot("Golden Bolt", 0.01),
@@ -263,8 +266,8 @@ namespace wServer.logic
         .Init("Dr Terrible Escaped Experiment",
               new State(
                   new Wander(0.5),
-                  new Shoot(10, 1, 0, defaultAngle: 0, angleOffset: 0, projectileIndex: 1, predictive: 1,
-                  coolDown: 800, coolDownOffset: 0)
+                  new Shoot(10, 1, 0, defaultAngle: 0, angleOffset: 0, projectileIndex: 0, predictive: 1,
+                  coolDown: 800)
                   )
                )
             .Init("Mini Bot",
@@ -461,8 +464,18 @@ namespace wServer.logic
             )
         .Init("Dr Terrible Bubble",
             new State(
+                new ConditionalEffect(ConditionEffectIndex.Invincible),
                 new State("nothing change",
-                    new ConditionalEffect(ConditionEffectIndex.Invincible)
+                    new SetAltTexture(0)
+                    ),
+                new State("Bubble time",
+                    new SetAltTexture(1)
+                    ),
+                new State("hs",
+                    new TimedTransition(15000, "spawn")
+                    ),
+                new State("spawn",
+                    new TossObject("Horrific Creation", coolDown: 1000000001, tossInvis: true, angle: 180)
                     )
                 )
             )
@@ -473,6 +486,10 @@ namespace wServer.logic
            )
         .Init("Horrific Creation",
                 new State(
+                   new ScaleHP(10000),
+                   new State("delay.",
+                       new TimedTransition(5000, "comeatmebro")
+                       ),
                    new State("comeatmebro",
                        new ConditionalEffect(ConditionEffectIndex.Invincible),
                         new EntitiesNotExistsTransition(9999, "Rawr", "Tesla Coil")
@@ -480,7 +497,7 @@ namespace wServer.logic
                   new State("Rawr",
                     new Wander(0.5),
                     new Order(9999, "Blue Torch Wall", "die"),
-                    new ConditionalEffect(ConditionEffectIndex.Invulnerable, perm: false),
+                    new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                        new Taunt(0.90, "Me Master! WHY WOULD YOU KILL ME MASTER!"),
                         new Taunt(0.75, "Come here and face my horrific blast!"),
                          new Taunt(0.50, "I was created to crush you, me Master said so himself!"),
@@ -493,7 +510,7 @@ namespace wServer.logic
                         new Taunt(0.90, "Me indestructible!"),
                          new Charge(2, coolDown: 1000),
                         new Shoot(8.4, count: 18, projectileIndex: 4, shootAngle: 25, coolDown: 1200),
-                        new ConditionalEffect(ConditionEffectIndex.Invulnerable, perm: false),
+                        new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                          new TimedTransition(7500, "ArmoredFighting")
                         ),
                     new State("ArmoredFighting",
@@ -511,8 +528,11 @@ namespace wServer.logic
                     new TierLoot(10, ItemType.Armor, 0.05),
                     new TierLoot(10, ItemType.Weapon, 0.05),
                     new TierLoot(4, ItemType.Ring, 0.025),
-                     new ItemLoot("Potion of Defense", 0.8),
-                    new ItemLoot("Conducting Wand", 0.0272),
+                    new ItemLoot("Potion of Defense", 0.8),
+                    new ItemLoot("Conducting Wand", .005),
+                    new ItemLoot("Scepter of Fulmination", 0.005),
+                    new ItemLoot("Robe of the Mad Scientist", 0.005),
+                    new ItemLoot("Experimental Ring", 0.005),
                     new ItemLoot("Golden Bolt", 0.03),
                     new ItemLoot("Golden Nut", 0.03)
                     )
@@ -529,16 +549,15 @@ namespace wServer.logic
         )
         .Init("Monster Cage",
             new State(
+                new ConditionalEffect(ConditionEffectIndex.Invincible, true),
                 new State("no spawn",
-                    new ConditionalEffect(ConditionEffectIndex.Invincible)
-                //new SetAltTexture(0)
+                    new SetAltTexture(0)
                 ),
                 new State("spawn",
-                    new ConditionalEffect(ConditionEffectIndex.Invincible),
-                    // new SetAltTexture(2),
-                    new Spawn("Dr Terrible Rampage Cyborg", maxChildren: 1, initialSpawn: 0.5),
-                    new Spawn("Dr Terrible Mini Bot", maxChildren: 1, initialSpawn: 0.5),
-                    new Spawn("Dr Terrible Escaped Experiment", maxChildren: 1, initialSpawn: 0.5)
+                    new SetAltTexture(2),
+                    new Spawn("Dr Terrible Rampage Cyborg", maxChildren: 1, initialSpawn: 1, coolDown: 1000000001),
+                    new Spawn("Dr Terrible Mini Bot", maxChildren: 1, initialSpawn: 1, coolDown: 1000000001),
+                    new Spawn("Dr Terrible Escaped Experiment", maxChildren: 1, initialSpawn: 1, coolDown: 1000000001)
                     )
                 )
             );
