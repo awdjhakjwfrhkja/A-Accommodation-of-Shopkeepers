@@ -214,7 +214,8 @@ namespace wServer.logic
                         ),
                     new Shoot(12, projectileIndex: 0, count: 5, shootAngle: 10, predictive: 1, coolDown: 1000),
                     new Shoot(10, projectileIndex: 1, predictive: 1, coolDown: 650),
-                    new Reproduce(densityMax: 2)
+                    new Reproduce(densityMax: 2),
+                    new DropPortalOnDeath("Toxic Sewers Portal", 0.05)
                     ),
                 new Threshold(.01,
                     new TierLoot(6, ItemType.Weapon, 0.04),
@@ -426,7 +427,7 @@ namespace wServer.logic
             )
             .Init("Leviathan",
                 new State(
-                    new DropPortalOnDeath("Ice Cave Portal", .01),
+                    new DropPortalOnDeath("Puppet Theatre Portal", .01),
                     new State("Wander",
                         new Swirl(),
                         new Shoot(10, 2, 10, 1, coolDown: 500),

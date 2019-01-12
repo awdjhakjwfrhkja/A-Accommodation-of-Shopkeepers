@@ -346,6 +346,7 @@ namespace wServer.logic
 
         .Init("DS Gulpord the Slime God",
             new State(
+                new ScaleHP(4000),
                 new RealmPortalDrop(),
                 new State("idle",
                     new PlayerWithinTransition(12, "begin")
@@ -605,7 +606,10 @@ namespace wServer.logic
                 new ItemLoot("Greater Potion of Defense", 1),
                 new ItemLoot("Void Blade", 0.005),
                 new ItemLoot("Murky Toxin", 0.005),
-                new ItemLoot("Slurp Knight Skin", 0.01)
+                new ItemLoot("Sword of Heavy Magic", .005),
+                new ItemLoot("Magical Blast Shield", .005),
+                new ItemLoot("Resurrected Warrior's Armor", .005),
+                new ItemLoot("Magic Amulet", 0.005)
                 )
             )
             ;

@@ -15,6 +15,7 @@ namespace wServer.logic
         private _ UndeadLair = () => Behav()
             .Init("Septavius the Ghost God",
                 new State(
+                    new ScaleHP(1600),
                     new State("Idle",
                         new PlayerWithinTransition(15, "Cycle")
                     ),
@@ -440,6 +441,9 @@ namespace wServer.logic
                 new Threshold(0.1,
                     new ItemLoot("Bow of the Morning Star", 0.005),
                     new ItemLoot("Doom Bow", 0.005),
+                    new ItemLoot("Quiver of Doom", .005),
+                    new ItemLoot("Demon Hide Armor", .005),
+                    new ItemLoot("Ring of Doom", .005),
                     new ItemLoot("Wine Cellar Incantation", 0.005),
                     new TierLoot(3, ItemType.Ring, 0.2),
                     new TierLoot(4, ItemType.Ring, 0.1),

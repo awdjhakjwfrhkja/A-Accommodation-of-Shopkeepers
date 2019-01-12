@@ -11,8 +11,8 @@
       <HitSound>monster/ghost_god_hit</HitSound>
       <DeathSound>monster/ghost_god_death</DeathSound>
       <Size>100</Size>
-      <MaxHitPoints>50000</MaxHitPoints>
-      <Defense>30</Defense>
+      <MaxHitPoints>8000</MaxHitPoints>
+      <Defense>12</Defense>
       <Flying/>
       <Quest/>
       <God/>
