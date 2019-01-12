@@ -20,9 +20,9 @@ namespace wServer.logic
                 new Taunt("It's Boshy Time!"),
                 new State(
                         new Wander(0.3),
-                        new AoeEffect(10, ConditionEffectIndex.ArmorBroken, 5000)
-                        //new Shoot(15, 9, 40, projectileIndex: 0, coolDown: 750, coolDownOffset: 1000),
-                        //new Shoot(15, 3, 10, projectileIndex: 1, coolDown: 500, coolDownOffset: 1000)
+                        new AoeEffect(10, ConditionEffectIndex.ArmorBroken, 5000),
+                        new Shoot(15, 9, 40, projectileIndex: 0, coolDown: 750, coolDownOffset: 1000),
+                        new Shoot(15, 3, 10, projectileIndex: 1, coolDown: 500, coolDownOffset: 1000)
                    )
                  ),
                  new Threshold(0.005,

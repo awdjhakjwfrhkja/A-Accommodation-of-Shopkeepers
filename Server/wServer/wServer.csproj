@@ -100,6 +100,7 @@
   <ItemGroup>
     <Compile Include="logic\behaviors\AoeEffect.cs" />
     <Compile Include="logic\behaviors\ApplySetPiece.cs" />
+    <Compile Include="logic\behaviors\Delay.cs" />
     <Compile Include="logic\behaviors\GivePlayersEffect.cs" />
     <Compile Include="logic\behaviors\OnDeathBehavior.cs" />
     <Compile Include="logic\behaviors\RealmPortalDrop.cs" />

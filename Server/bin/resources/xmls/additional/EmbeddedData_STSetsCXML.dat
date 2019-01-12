@@ -1573,7 +1573,7 @@
   </Object>
 </Avatar>
 
-  <Cave>
+  <IceCave>
     <Object type="0x766" id="Staff of Esben" setName="Ice Cave">
       <Class>Equipment</Class>
       <Item/>
@@ -1662,7 +1662,7 @@
       <BagType>6</BagType>
       <DisplayId>Ring of the Ice Cave</DisplayId>
     </Object>
-  </Cave>
+  </IceCave>
 
   <Skull>
     <Object type="0x1505" id="Staff of Darkness" setName="Skull Shrine">

@@ -48,6 +48,7 @@ namespace wServer.logic
             .Init("White Demon",
                 new State(
                     new DropPortalOnDeath("Abyss of Demons Portal", .17),
+                    new DropPortalOnDeath("Ice Cave Portal", .001),
                     new Prioritize(
                         new StayAbove(1, 200),
                         new Follow(1, range: 7),

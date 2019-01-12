@@ -19,13 +19,13 @@ namespace wServer.logic.behaviors
         }
 
 
-        private readonly int amountPerPlayer;
+        private readonly int amountPerPlayer; //x Hp per player
         private readonly int maxAdditional; // leave as 0 for no limit
-        private readonly bool healAfterMax;
+        private readonly bool healAfterMax; //not sure, just leave as true
         private readonly int dist; // leave as 0 for all players
-        private readonly int scaleAfter;
+        private readonly int scaleAfter; //after x players it starts to scale, put 0 for it to scale on the first player
 
-        public ScaleHP(int amountPerPlayer, int maxAdditional, bool healAfterMax = true, int dist = 0, int scaleAfter = 1)
+        public ScaleHP(int amountPerPlayer, int maxAdditional = 0, bool healAfterMax = true, int dist = 0, int scaleAfter = 0)
         {
             this.amountPerPlayer = amountPerPlayer;
             this.maxAdditional = maxAdditional;

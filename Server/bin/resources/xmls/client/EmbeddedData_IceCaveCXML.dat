@@ -177,7 +177,7 @@
       <DeathSound>monster/skeletons_death</DeathSound>
       <Size>200</Size>
       <ShadowSize>100</ShadowSize>
-      <MaxHitPoints>90000</MaxHitPoints>
+      <MaxHitPoints>60000</MaxHitPoints>
       <Defense>20</Defense>
       <XpMult>0.0</XpMult>
       <StasisImmune/>

@@ -91,6 +91,7 @@ namespace wServer.logic
             )
         .Init("ic Esben the Unwilling",
             new State(
+                new ScaleHP(12000),
                 new TransformOnDeath("ic Loot Balloon"),
                 new HpLessTransition(0.1, "die"),
                 new State("start",
@@ -459,6 +460,7 @@ namespace wServer.logic
             )
         .Init("ic Loot Balloon",
             new State(
+                new ScaleHP(3000),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                         new TimedTransition(5000, "UnsetEffect")
@@ -468,6 +470,8 @@ namespace wServer.logic
                 new Threshold(0.1,
                     new ItemLoot("Staff of Esben", 0.005),
                     new ItemLoot("Skullish Remains of Esben", 0.005),
+                    new ItemLoot("Soulless Robe", 0.005),
+                    new ItemLoot("Ring of the Ice Cave", 0.005),
                     new ItemLoot("Potion of Mana", 0.32),
                     new ItemLoot("Potion of Dexterity", 0.32),
                     new TierLoot(10, ItemType.Armor, 0.2),

@@ -6,15 +6,15 @@ using wServer.realm;
 
 namespace wServer.logic.behaviors
 {
-    //replacement for simple timed transition in sequence
-    class Timed : CycleBehavior
+    // replacement for simple timed transition in sequence
+    class Delay : CycleBehavior
     {
-        //State storage: time
+        // State storage: time
 
-        private readonly Behavior behavior;
-        private readonly int period;
+        readonly Behavior behavior;
+        readonly int period;
 
-        public Timed(int period, Behavior behavior)
+        public Delay(int period, Behavior behavior)
         {
             this.behavior = behavior;
             this.period = period;
@@ -30,20 +30,17 @@ namespace wServer.logic.behaviors
         {
             int period = (int)state;
 
-            behavior.Tick(host, time);
             Status = CycleStatus.InProgress;
 
             period -= time.ElaspedMsDelta;
             if (period <= 0)
             {
+                behavior.Tick(host, time);
+
                 Status = CycleStatus.Completed;
                 // ......- -
                 if (behavior is Prioritize)
                     host.StateStorage[behavior] = -1;
-            }
-            else
-            {
-                behavior.Tick(host, time);
             }
 
             state = period;

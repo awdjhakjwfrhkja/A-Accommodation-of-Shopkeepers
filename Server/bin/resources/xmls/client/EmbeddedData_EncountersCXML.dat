@@ -1103,7 +1103,7 @@
       </AltTexture>
       <HitSound>monster/golems_hit</HitSound>
       <DeathSound>monster/beholder_death</DeathSound>
-      <MaxHitPoints>70000</MaxHitPoints>
+      <MaxHitPoints>60000</MaxHitPoints>
       <Projectile id="0">
          <ObjectId>White Beam</ObjectId>
          <Speed>83</Speed>
