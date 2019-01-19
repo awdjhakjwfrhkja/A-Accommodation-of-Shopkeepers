@@ -61,18 +61,12 @@
       <StasisImmune/>
    </Object>
    <Object type="0x0e78" id="Nexus Crier">
-   <DisplayId>Dynasty Overseer</DisplayId>
+   <DisplayId>Rimuru Tempest</DisplayId>
       <Class>Character</Class>
       <AnimatedTexture>
-         <File>chars8x8rEncounters</File>
-         <Index>83</Index>
+         <File>chars16x16dMountains2</File>
+         <Index>15</Index>
       </AnimatedTexture>
-      <AltTexture id="1">
-         <AnimatedTexture>
-            <File>chars8x8rEncounters</File>
-            <Index>84</Index>
-         </AnimatedTexture>
-      </AltTexture>
       <HitSound>monster/slimes_death</HitSound>
       <DeathSound>monster/flying_brain_death</DeathSound>
       <Size>140</Size>

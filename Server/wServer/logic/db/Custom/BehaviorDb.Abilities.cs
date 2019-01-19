@@ -13,6 +13,7 @@ namespace wServer.logic
         private _ Abilities = () => Behav()
             .Init("Marble Pillar",
                 new State(
+                    new ConditionalEffect(ConditionEffectIndex.Invincible, true),
                     new State("start",
                         new TimedTransition(4500, "disappear"),
                         new GivePlayersEffect(3, ConditionEffectIndex.Armored),

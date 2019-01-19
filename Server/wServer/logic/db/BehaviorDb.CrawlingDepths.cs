@@ -8,8 +8,9 @@ namespace wServer.logic
     partial class BehaviorDb
     {
         private _ CrawlingDepths = () => Behav()
-                        .Init("Son of Arachna",
+          .Init("Son of Arachna",
                 new State(
+                    new ScaleHP(10000),
                     new RealmPortalDrop(),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),
@@ -79,7 +80,7 @@ namespace wServer.logic
                                   new TierLoot(12, ItemType.Armor, 0.05),
                                   new TierLoot(13, ItemType.Armor, 0.04),
                                   new TierLoot(5, ItemType.Ring, 0.05),
-                                  new ItemLoot("Potion of Mana", 1),
+                                  new ItemLoot("Potion of Mana", 0.5),
                                   new ItemLoot("Doku No Ken", 0.02)
                                   )
                         )

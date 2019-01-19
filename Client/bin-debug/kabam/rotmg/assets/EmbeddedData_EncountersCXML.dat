@@ -29,7 +29,7 @@
       <DazedImmune/>
       <HitSound>monster/golems_hit</HitSound>
       <DeathSound>monster/beholder_death</DeathSound>
-      <MaxHitPoints>500000</MaxHitPoints>
+      <MaxHitPoints>150000</MaxHitPoints>
       <Size>200</Size>
       <Defense>90</Defense>
       <XpMult>0.3</XpMult>

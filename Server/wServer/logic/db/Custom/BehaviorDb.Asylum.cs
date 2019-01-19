@@ -20,6 +20,7 @@ namespace wServer.logic
 
         .Init("BedlamGod",
             new State(
+                new ScaleHP(1500),
             new Reproduce("ChaosGuardian", coolDown: 10000, densityMax: 6, densityRadius: 40),
 
                 //new Shoot(15, projectileIndex: 0, count: 1, coolDown: 600), //fire
@@ -57,7 +58,19 @@ namespace wServer.logic
                     new Shoot(15, projectileIndex: 2, count: 2, shootAngle: 40, coolDown: 2000), //blade
                     new Shoot(15, projectileIndex: 3, count: 8, shootAngle: 45, fixedAngle: 0, coolDown: 2500) //purple
                 )
-            )
+            ),
+            new Threshold(0.01,
+                new ItemLoot("Potion of Defense", 0.2),
+                new ItemLoot("Potion of Attack", 0.2),
+                new ItemLoot("Potion of Speed", 0.2),
+                new ItemLoot("Potion of Dexterity", 0.2),
+                new ItemLoot("Potion of Mana", 0.08),
+                new ItemLoot("Potion of Life", 0.07),
+                new ItemLoot("Unholy Staff", 0.005),
+                new ItemLoot("Unholy Spell", 0.005),
+                new ItemLoot("Unholy Robe", 0.005),
+                new ItemLoot("Unholy Wand", 0.005)
+                )
         )
 
         .Init("ChaosGuardian",

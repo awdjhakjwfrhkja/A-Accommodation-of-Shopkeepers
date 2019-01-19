@@ -60,7 +60,7 @@
       <HitSound>monster/oryx_hit</HitSound>
       <DeathSound>monster/oryx_death</DeathSound>
       <Size>120</Size>
-      <MaxHitPoints>75000</MaxHitPoints>
+      <MaxHitPoints>65000</MaxHitPoints>
       <Defense>60</Defense>
       <Group>Group4</Group>
       <Quest/>
@@ -147,7 +147,7 @@
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
       <Group>Group1</Group>
-      <MaxHitPoints>45000</MaxHitPoints>
+      <MaxHitPoints>30000</MaxHitPoints>
       <Defense>25</Defense>
       <XpMult>0.0</XpMult>
       <Size>170</Size>
@@ -265,7 +265,7 @@
       <HitSound>monster/skeletons_hit</HitSound>
       <DeathSound>monster/skeletons_death</DeathSound>
       <Size>175</Size>
-      <MaxHitPoints>75000</MaxHitPoints>
+      <MaxHitPoints>65000</MaxHitPoints>
       <Defense>40</Defense>
       <XpMult>0.0</XpMult>
       <Level>20</Level>
@@ -363,7 +363,7 @@
       </AnimatedTexture>
       <HitSound>monster/demons_hit</HitSound>
       <DeathSound>monster/demons_death</DeathSound>
-      <MaxHitPoints>45000</MaxHitPoints>
+      <MaxHitPoints>40000</MaxHitPoints>
       <Size>100</Size>
       <Defense>20</Defense>
       <XpMult>0.0</XpMult>

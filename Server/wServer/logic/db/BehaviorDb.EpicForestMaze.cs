@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ EForestMaze = () => Behav()
         .Init("Murderous Megamoth",
              new State(
+                 new ScaleHP(6000),
                  new State("idle",
                      new Wander(0.2),
                      new Follow(5.0, 10, coolDown: 0),
@@ -33,7 +34,10 @@ namespace wServer.logic
                     new ItemLoot("Wine Cellar Incantation", 0.01),
                     new ItemLoot("Potion of Vitality", 0.9),
                     new ItemLoot("Leaf Bow", 0.005)
-                )
+                ),
+                new Threshold(0.1,
+                    new ItemLoot("Potion of life", 0.8)
+                    )
             )
         .Init("Mini Larva",
             new State(
@@ -50,6 +54,7 @@ namespace wServer.logic
             )
         .Init("Epic Mama Megamoth",
             new State(
+                new ScaleHP(9000),
                 new HpLessTransition(.3, "change"),
                 new TransformOnDeath("Murderous Megamoth"),
                 new State("idle",
@@ -85,6 +90,7 @@ namespace wServer.logic
             )
         .Init("Epic Larva",
             new State(
+                new ScaleHP(9000),
                 new HpLessTransition(.3, "change"),
                 new HpLessTransition(.75, "shoot4"),
                 new TransformOnDeath("Epic Mama Megamoth"),

@@ -273,7 +273,7 @@
       <HitSound>monster/slimes_hit</HitSound>
       <DeathSound>monster/slimes_death</DeathSound>
       <Size>120</Size>
-      <MaxHitPoints>20000</MaxHitPoints>
+      <MaxHitPoints>25000</MaxHitPoints>
       <Defense>25</Defense>
       <Quest/>
       <God/>

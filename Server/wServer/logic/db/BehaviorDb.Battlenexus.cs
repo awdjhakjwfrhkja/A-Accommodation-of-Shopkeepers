@@ -14,6 +14,7 @@ namespace wServer.logic
         private _ BattlefortheNexus = () => Behav()
             .Init("Oryx the Mad God Deux",
                 new State(
+                    new ScaleHP(13000),
                     new State("Nope",
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
                         new EntityNotExistsTransition("NM Green Dragon God Deux", 999, "Attack")
@@ -73,6 +74,7 @@ namespace wServer.logic
               )
             .Init("NM Green Dragon God Deux",
                 new State(
+                    new ScaleHP(13000),
                     new SetAltTexture(1),
                     new StayCloseToSpawn(0.5, 24),
                     new HpLessTransition(0.05, "19"),
@@ -223,6 +225,7 @@ namespace wServer.logic
               )
                .Init("Archdemon Malphas Deux",
                 new State(
+                    new ScaleHP(8000),
                     new State("Nope",
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
                         new EntityNotExistsTransition("Murderous Megamoth Deux", 999, "default")
@@ -329,6 +332,7 @@ namespace wServer.logic
             )
             .Init("Murderous Megamoth Deux",
              new State(
+                 new ScaleHP(6000),
                  new State("idle",
                      new Wander(0.2),
                      new Follow(5.0, 10, coolDown: 0),

@@ -11,6 +11,7 @@ namespace wServer.logic
         private _ Avatar = () => Behav()
             .Init("shtrs Defense System", //Avatar of the Forgotten King 
                 new State(
+                    new ScaleHP(15000),
                     new State("Normal1",
                         new ConditionalEffect(ConditionEffectIndex.Armored),
                         new HpLessTransition(0.80, "Phase1"), //Shadowman
@@ -357,7 +358,13 @@ namespace wServer.logic
                     new ItemLoot("Potion of Wisdom", .1),
                     new ItemLoot("Potion of Speed", .1),
                     new ItemLoot("Potion of Dexterity", .1),
-                    new ItemLoot("Tablet of the King's Avatar", 0.008)
+                    new ItemLoot("Tablet of the King's Avatar", 0.008),
+                    new ItemLoot("Royal Staff", 0.008),
+                    new ItemLoot("Robe of the King", 0.008),
+                    new ItemLoot("Ring of the Throne", 0.008),
+                    new ItemLoot("Staff of the Great Climbing", 0.01),
+                    new ItemLoot("Robe of the Battle Monk", 0.01), 
+                    new ItemLoot("The Bloody Legacy", 0.01)
                     )
             )
             .Init("shtrs Pillar 1", //Killer Pillar | Up Left

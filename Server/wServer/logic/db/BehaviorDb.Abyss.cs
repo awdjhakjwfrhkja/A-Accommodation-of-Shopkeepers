@@ -12,6 +12,7 @@ namespace wServer.logic
         private _ Abyss = () => Behav()
             .Init("Archdemon Malphas",
                 new State(
+                    new ScaleHP(2400),
                     new GroundTransform(tileId: "Red Quad", radius: 2),
                     new State("default",
                         new PlayerWithinTransition(8, "basic")
@@ -74,7 +75,10 @@ namespace wServer.logic
                     new TierLoot(10, ItemType.Armor, 0.05),
                     new TierLoot(10, ItemType.Weapon, 0.05),
                     new TierLoot(4, ItemType.Ring, 0.025),
-                    new ItemLoot("Demon Blade", 0.022)
+                    new ItemLoot("Demon Blade", 0.005),
+                    new ItemLoot("Demon Helm", 0.005),
+                    new ItemLoot("Armor of the Greater Demon", 0.005),
+                    new ItemLoot("Ring of Demons", 0.005)
                 )
             )
             .Init("Malphas Missile",
@@ -181,6 +185,7 @@ namespace wServer.logic
             )
            .Init("Abyss Idol",
             new State(
+                new ScaleHP(5000),
                 new State("Deafault",
                 new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                 new PlayerWithinTransition(dist: 4, targetState: "Phase 1")
@@ -203,7 +208,10 @@ namespace wServer.logic
                     new TierLoot(10, ItemType.Armor, 0.05),
                     new TierLoot(10, ItemType.Weapon, 0.05),
                     new TierLoot(4, ItemType.Ring, 0.025),
-                    new ItemLoot("Sword of Illumination", 0.022)
+                    new ItemLoot("Demon Blade", 0.001),
+                    new ItemLoot("Demon Helm", 0.001),
+                    new ItemLoot("Armor of the Greater Demon", 0.001),
+                    new ItemLoot("Ring of Demons", 0.001)
                      )
  
             );
