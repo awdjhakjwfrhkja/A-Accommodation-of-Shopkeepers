@@ -230,6 +230,7 @@ namespace wServer.logic
                 )
             .Init("NM Blue Dragon God",
                 new State(
+                    new ScaleHP(7000),
                     new SetAltTexture(1),
                     new StayCloseToSpawn(0.5, 24),
                     new HpLessTransition(0.05, "20"),
@@ -493,7 +494,10 @@ namespace wServer.logic
                     new ItemLoot("Small Blue Dragon Scale Cloth", 0.08),
                     new ItemLoot("Potion of Mana", 0.03),
                     new ItemLoot("Wine Cellar Incantation", 0.008),
-                    new ItemLoot("Water Dragon Silk Robe", 0.008)
+                    new ItemLoot("Blue Dragon Staff", 0.005),
+                    new ItemLoot("Water Orb", 0.005),
+                    new ItemLoot("Water Dragon Silk Robe", 0.005),
+                    new ItemLoot("Blue Dragon-Fire Ring", 0.005)
                 )
             )
             .Init("NM Blue Dragon God Hardmode",
@@ -689,6 +693,7 @@ namespace wServer.logic
             )
             .Init("NM Red Dragon God",
                 new State(
+                    new ScaleHP(5500),
                     new SetAltTexture(1),
                     new StayCloseToSpawn(0.5, 24),
                     new HpLessTransition(0.05, "23"),
@@ -1178,7 +1183,10 @@ namespace wServer.logic
                     new ItemLoot("Large Red Dragon Scale Cloth", 0.08),
                     new ItemLoot("Small Red Dragon Scale Cloth", 0.08),
                     new ItemLoot("Wine Cellar Incantation", 0.008),
-                    new ItemLoot("Fire Dragon Battle Armor", 0.008)
+                    new ItemLoot("Fire Dragon Battle Armor", 0.005),
+                    new ItemLoot("Sword of Illumination", 0.005),
+                    new ItemLoot("Dragon-Fire Helm", 0.005),
+                    new ItemLoot("Red Dragon-Fire Ring", 0.005)
                 )
             )
         //1
@@ -1204,6 +1212,7 @@ namespace wServer.logic
                 )
             .Init("NM Green Dragon God",
                 new State(
+                    new ScaleHP(8000),
                     new SetAltTexture(1),
                     new StayCloseToSpawn(0.5, 24),
                     new HpLessTransition(0.05, "19"),
@@ -1573,7 +1582,10 @@ namespace wServer.logic
                     new ItemLoot("Large Green Dragon Scale Cloth", 0.08),
                     new ItemLoot("Small Green Dragon Scale Cloth", 0.08),
                     new ItemLoot("Wine Cellar Incantation", 0.008),
-                    new ItemLoot("Leaf Dragon Hide Armor", 0.008)
+                    new ItemLoot("Leaf Dragon Hide Armor", 0.005),
+                    new ItemLoot("Dagger of Green Fire", 0.005),
+                    new ItemLoot("Fire in a Bottle", 0.005),
+                    new ItemLoot("Green Dragon-Fire Ring", 0.005)
                 )
             )
             .Init("lod Green HM Loot Balloon",
@@ -1698,6 +1710,7 @@ namespace wServer.logic
             )
             .Init("NM Black Dragon God",
                 new State(
+                    new ScaleHP(6000),
                     new SetAltTexture(1),
                     new StayCloseToSpawn(0.5, 24),
                     new HpLessTransition(0.05, "15"),
@@ -1978,7 +1991,11 @@ namespace wServer.logic
                     new ItemLoot("Large Midnight Dragon Scale Cloth", 0.08),
                     new ItemLoot("Small Midnight Dragon Scale Cloth", 0.08),
                     new ItemLoot("Wine Cellar Incantation", 0.018),
-                    new ItemLoot("Annoying Firecracker Katana", 0.018)
+                    new ItemLoot("Annoying Firecracker Katana", 0.018),
+                    new ItemLoot("Lightning Bow", 0.005),
+                    new ItemLoot("Quiver of Thunder", 0.005),
+                    new ItemLoot("Dark Elf Armor", 0.005),
+                    new ItemLoot("Lightning Rod Ring", 0.005)
                 )
             )
 

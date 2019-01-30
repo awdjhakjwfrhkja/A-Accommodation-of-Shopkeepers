@@ -31,6 +31,7 @@ namespace wServer.logic
             )
         .Init("MegaRototo",
             new State(
+                new ScaleHP(2600),
                 new Spawn("Tiny Rototo", maxChildren: 6),
                 new State("1",
                     new Wander(0.5),
@@ -59,15 +60,20 @@ namespace wServer.logic
                     new ItemLoot("Red Gumball", 0.3),
                     new ItemLoot("Purple Gumball", 0.3),
                     new ItemLoot("Rock Candy", 0.2),
-                    new ItemLoot("Fairy Plate", 0.01),
-                    new ItemLoot("Pixie-Enchanted Sword", 0.01),
-                    new ItemLoot("Seal of the Enchanted Forest", 0.01),
-                    new ItemLoot("Ring of Pure Wishes", 0.01),
-                    new ItemLoot("Wine Cellar Incantation", 0.01)
+                    new ItemLoot("Fairy Plate", 0.007),
+                    new ItemLoot("Pixie-Enchanted Sword", 0.007),
+                    new ItemLoot("Seal of the Enchanted Forest", 0.007),
+                    new ItemLoot("Ring of Pure Wishes", 0.007),
+                    new ItemLoot("Wine Cellar Incantation", 0.01),
+                    new ItemLoot("Sword of Grand Prestige", 0.0045),
+                    new ItemLoot("Heroic Seal", 0.0045),
+                    new ItemLoot("Decorative Platemail", 0.0045),
+                    new ItemLoot("Ring of Honor", 0.0045)
                 )
             )
             .Init("Spoiled Creampuff",
                 new State(
+                    new ScaleHP(2400),
                     new Wander(0.5),
                     new Shoot(20, 2, 40, angleOffset: 60 / 3, projectileIndex: 0, coolDown: 1500),
                     new Shoot(20, 4, 15, angleOffset: 40 / 3, projectileIndex: 1, coolDown: 1000),
@@ -90,15 +96,20 @@ namespace wServer.logic
                     new ItemLoot("Red Gumball", 0.3),
                     new ItemLoot("Purple Gumball", 0.3),
                     new ItemLoot("Rock Candy", 0.2),
-                    new ItemLoot("Fairy Plate", 0.01),
-                    new ItemLoot("Pixie-Enchanted Sword", 0.01),
-                    new ItemLoot("Seal of the Enchanted Forest", 0.01),
-                    new ItemLoot("Ring of Pure Wishes", 0.01),
-                    new ItemLoot("Wine Cellar Incantation", 0.01)
+                    new ItemLoot("Fairy Plate", 0.007),
+                    new ItemLoot("Pixie-Enchanted Sword", 0.007),
+                    new ItemLoot("Seal of the Enchanted Forest", 0.007),
+                    new ItemLoot("Ring of Pure Wishes", 0.007),
+                    new ItemLoot("Wine Cellar Incantation", 0.01),
+                    new ItemLoot("Sword of Grand Prestige", 0.0045),
+                    new ItemLoot("Heroic Seal", 0.0045),
+                    new ItemLoot("Decorative Platemail", 0.0045),
+                    new ItemLoot("Ring of Honor", 0.0045)
                 )
             )
             .Init("Desire Troll",
                 new State(
+                    new ScaleHP(2900),
                     new Wander(0.5),
                     new Grenade(6, 200, range: 8, coolDown: 3000),
                     new Shoot(15, 3, 5, angleOffset: 30 / 3, projectileIndex: 0, coolDown: 2100),
@@ -122,15 +133,20 @@ namespace wServer.logic
                     new ItemLoot("Red Gumball", 0.3),
                     new ItemLoot("Purple Gumball", 0.3),
                     new ItemLoot("Rock Candy", 0.2),
-                    new ItemLoot("Fairy Plate", 0.01),
-                    new ItemLoot("Pixie-Enchanted Sword", 0.01),
-                    new ItemLoot("Seal of the Enchanted Forest", 0.01),
-                    new ItemLoot("Ring of Pure Wishes", 0.01),
-                    new ItemLoot("Wine Cellar Incantation", 0.01)
+                    new ItemLoot("Fairy Plate", 0.007),
+                    new ItemLoot("Pixie-Enchanted Sword", 0.007),
+                    new ItemLoot("Seal of the Enchanted Forest", 0.007),
+                    new ItemLoot("Ring of Pure Wishes", 0.007),
+                    new ItemLoot("Wine Cellar Incantation", 0.01),
+                    new ItemLoot("Sword of Grand Prestige", 0.0045),
+                    new ItemLoot("Heroic Seal", 0.0045),
+                    new ItemLoot("Decorative Platemail", 0.0045),
+                    new ItemLoot("Ring of Honor", 0.0045)
                 )
             )
         .Init("Swoll Fairy",
             new State(
+                new ScaleHP(2600),
                 new Spawn("Fairy", maxChildren: 3),
                 new State("1",
                     new Wander(0.3),
@@ -159,11 +175,15 @@ namespace wServer.logic
                     new ItemLoot("Red Gumball", 0.3),
                     new ItemLoot("Purple Gumball", 0.3),
                     new ItemLoot("Rock Candy", 0.2),
-                    new ItemLoot("Fairy Plate", 0.01),
-                    new ItemLoot("Pixie-Enchanted Sword", 0.01),
-                    new ItemLoot("Seal of the Enchanted Forest", 0.01),
-                    new ItemLoot("Ring of Pure Wishes", 0.01),
-                    new ItemLoot("Wine Cellar Incantation", 0.01)
+                    new ItemLoot("Fairy Plate", 0.007),
+                    new ItemLoot("Pixie-Enchanted Sword", 0.007),
+                    new ItemLoot("Seal of the Enchanted Forest", 0.007),
+                    new ItemLoot("Ring of Pure Wishes", 0.007),
+                    new ItemLoot("Wine Cellar Incantation", 0.01),
+                    new ItemLoot("Sword of Grand Prestige", 0.0045),
+                    new ItemLoot("Heroic Seal", 0.0045),
+                    new ItemLoot("Decorative Platemail", 0.0045),
+                    new ItemLoot("Ring of Honor", 0.0045)
                     )
             )
             .Init("Gigacorn",
@@ -194,11 +214,15 @@ namespace wServer.logic
                     new ItemLoot("Red Gumball", 0.3),
                     new ItemLoot("Purple Gumball", 0.3),
                     new ItemLoot("Rock Candy", 0.2),
-                    new ItemLoot("Fairy Plate", 0.01),
-                    new ItemLoot("Pixie-Enchanted Sword", 0.01),
-                    new ItemLoot("Seal of the Enchanted Forest", 0.01),
-                    new ItemLoot("Ring of Pure Wishes", 0.01),
-                    new ItemLoot("Wine Cellar Incantation", 0.01)
+                    new ItemLoot("Fairy Plate", 0.007),
+                    new ItemLoot("Pixie-Enchanted Sword", 0.007),
+                    new ItemLoot("Seal of the Enchanted Forest", 0.007),
+                    new ItemLoot("Ring of Pure Wishes", 0.007),
+                    new ItemLoot("Wine Cellar Incantation", 0.01),
+                    new ItemLoot("Sword of Grand Prestige", 0.0045),
+                    new ItemLoot("Heroic Seal", 0.0045),
+                    new ItemLoot("Decorative Platemail", 0.0045),
+                    new ItemLoot("Ring of Honor", 0.0045)
                 )
             )
         .Init("Candyland Boss Spawner",

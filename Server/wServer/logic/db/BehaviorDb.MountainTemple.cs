@@ -17,6 +17,7 @@ namespace wServer.logic
         private _ MountainTemple = () => Behav()
         .Init("Daichi the Fallen",
             new State(
+                new ScaleHP(17000),
                 new State("hplesslast",
                 new HpLessTransition(0.25, "lastPhase"),
                 new State("Idle",
@@ -448,6 +449,25 @@ namespace wServer.logic
                     new Flash(0xf20d0d, 10000000, 80000),
                     new ChangeSize(25, 250)
                     )
+                ),
+            new Threshold(0.035,
+                new ItemLoot("Wand of the Fallen", 0.004),
+                new ItemLoot("Orb of Aether", 0.004),
+                new ItemLoot("Wine Cellar Incantation", .01),
+                new ItemLoot("Potion of Defense", 0.2),
+                new ItemLoot("Potion of Defense", 0.4),
+                new ItemLoot("Potion of Attack", 0.4),
+                new ItemLoot("Potion of Dexterity", 0.4),
+                new ItemLoot("Potion of Speed", 0.4),
+                new ItemLoot("Potion of Wisdom", 0.4),
+                new ItemLoot("Potion of Vitality", 0.4),
+
+                new TierLoot(5, ItemType.Ring, 0,07),
+                new TierLoot(5, ItemType.Ability, 0.05),
+                new TierLoot(12, ItemType.Armor, 0.05),
+                new TierLoot(11, ItemType.Armor, 0.07),
+                new TierLoot(12, ItemType.Weapon, 0.05),
+                new TierLoot(11, ItemType.Weapon, 0.07)
                 )
             )
 

@@ -14,6 +14,7 @@ namespace wServer.logic
         private _ MiniDungeonHub = () => Behav()
             .Init("md Janus the Doorwarden",
                 new State(
+                    new ScaleHP(20000),
                     new DropPortalOnDeath("Court of Oryx Portal", 100),
                     new State("check1",
                           new ConditionalEffect(ConditionEffectIndex.Invincible, true),

@@ -11,6 +11,7 @@ namespace wServer.logic
         private _ Hermit = () => Behav()
             .Init("Hermit God",
                 new State(
+                    new ScaleHP(5000),
                     new TransferDamageOnDeath("Hermit God Drop"),
                     new OrderOnDeath(20, "Hermit God Tentacle Spawner", "Die", 1),
                     new OrderOnDeath(20, "Hermit God Drop", "Die", 1),
@@ -140,7 +141,10 @@ namespace wServer.logic
                 new Threshold(0.01,
                     new ItemLoot("Potion of Vitality", 0.1, 1),
                     new ItemLoot("Potion of Dexterity", 0.1, 1),
-                    new ItemLoot("Helm of the Juggernaut", 0.004)
+                    new ItemLoot("Helm of the Juggernaut", 0.005),
+                    new ItemLoot("Sword of Light", 0.005),
+                    new ItemLoot("Sky-Metal Armor", 0.005),
+                    new ItemLoot("Ring of Sky Metal", 0.005)
                     )
             )
             .Init("Hermit portal maker",

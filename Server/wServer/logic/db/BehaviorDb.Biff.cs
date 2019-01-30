@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ Biff = () => Behav()
             .Init("BB Biff the Buffed Bunny",
             new State(
+                new ScaleHP(8000),
                 new State("Taunt+INV",
                     new Taunt("You have stolen and broken eggs at your leisure. I will put a stop to this!"),
                     new ConditionalEffect(ConditionEffectIndex.Invulnerable, duration: 0),
@@ -72,8 +73,8 @@ namespace wServer.logic
                     new ItemLoot("Potion of Dexterity", 0.05),
                     new ItemLoot("Potion of Wisdom", 0.05),
                     new ItemLoot("Potion of Speed", 0.05),
-                    new ItemLoot("Vitamine Buster", 0.001),
-                    new ItemLoot("Helm of the Swift Bunny", 0.001)
+                    new ItemLoot("Vitamine Buster", 0.005),
+                    new ItemLoot("Helm of the Swift Bunny", 0.005)
                 )
             )
     ;

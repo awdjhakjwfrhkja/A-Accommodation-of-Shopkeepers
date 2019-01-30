@@ -122,7 +122,7 @@
       </AltTexture>
       <HitSound>monster/medusa_hit</HitSound>
       <DeathSound>monster/medusa_death</DeathSound>
-      <MaxHitPoints>960000</MaxHitPoints>
+      <MaxHitPoints>69000</MaxHitPoints>
       <ShadowSize>0</ShadowSize>
       <God/>
       <Quest/>
@@ -168,7 +168,7 @@
       <StasisImmune/>
       <Enemy/>
       <NoMiniMap/>
-      <MaxHitPoints>1200</MaxHitPoints>
+      <MaxHitPoints>23000</MaxHitPoints>
       <XpMult>0.0</XpMult>
       <Size>90</Size>
       <Defense>5</Defense>

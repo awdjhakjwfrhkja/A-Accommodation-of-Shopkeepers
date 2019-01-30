@@ -178,6 +178,7 @@ namespace wServer.logic
             )
             .Init("Ice Tomb Defender",
                 new State(
+                    new ScaleHP(17000),
                     new State("idle",
                         new ConditionalEffect(ConditionEffectIndex.Armored),
                         new Orbit(.6, 5, target: "Ice Tomb Boss Anchor", radiusVariance: 0.5),
@@ -242,7 +243,7 @@ namespace wServer.logic
                         )
                     ),
                     new Threshold(0.15,
-                        new ItemLoot("Greater Potion of Life", 1)
+                        new ItemLoot("Greater Potion of Life", 0.66)
                     ),
                     new Threshold(0.1,
                         new ItemLoot("Frimarra", 0.05
@@ -251,6 +252,7 @@ namespace wServer.logic
                 )
         .Init("Ice Tomb Support",
              new State(
+                 new ScaleHP(13000),
                 new State("Idle",
                     new ConditionalEffect(ConditionEffectIndex.Armored),
                     new EntityNotExistsTransition("Ice Tomb Boss Anchor", 50, "IdlePhase1"),
@@ -468,11 +470,12 @@ namespace wServer.logic
                                 new Threshold(0.1,
                                         new ItemLoot("Enchanted Ice Shard", 0.05),
                                         new ItemLoot("Freezing Quiver", 0.05),
-                                        new ItemLoot("Greater Potion of Life", 1)
+                                        new ItemLoot("Greater Potion of Life", 0.66)
                                 )
             )
             .Init("Ice Tomb Attacker",
                                 new State(
+                                    new ScaleHP(15000),
                                         new State("Idle",
                                                 new ConditionalEffect(ConditionEffectIndex.Armored),
                                                 new EntityNotExistsTransition("Ice Tomb Boss Anchor", 50, "IdlePhase1"),
@@ -683,7 +686,7 @@ namespace wServer.logic
                                 new Threshold(0.1,
                                         new ItemLoot("Ring of the northern light", 0.05),
                                         new ItemLoot("Rudolph the Berzerk Skin", 0.01),
-                                        new ItemLoot("Greater Potion of Life", 1)
+                                        new ItemLoot("Greater Potion of Life", 0.66)
                         )
             )
         .Init("shard Artifact 1",

@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ CubeGod = () => Behav()
             .Init("Cube God",
                 new State(
+                    new ScaleHP(1000),
                     new Wander(.3),
                     new Shoot(30, 9, 10, 0, predictive: .5, coolDown: 750),
                     new Shoot(30, 4, 10, 1, predictive: .5, coolDown: 1500),

@@ -168,6 +168,7 @@ namespace wServer.logic
             )
         .Init("Puppet Master v2",
             new State(
+                new ScaleHP(18000),
                 new State("1",
                     new ConditionalEffect(ConditionEffectIndex.Invulnerable, true),
                     new PlayerWithinTransition(30, "2")
@@ -658,8 +659,8 @@ namespace wServer.logic
                 new TierLoot(12, ItemType.Weapon, 0.6),
                 new ItemLoot("Wine Cellar Incantation", 0.03),
                 new TierLoot(5, ItemType.Ring, 0.6),
-                new ItemLoot("Thousand Shot", 0.03),
-                new ItemLoot("Prism of Dire Instability", 0.03)
+                new ItemLoot("Thousand Shot", 0.01),
+                new ItemLoot("Prism of Dire Instability", 0.01)
                 )
             );
     }

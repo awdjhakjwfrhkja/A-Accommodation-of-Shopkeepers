@@ -276,7 +276,7 @@
       <HitSound>monster/skeletons_hit</HitSound>
       <DeathSound>monster/skeletons_death</DeathSound>
       <Size>175</Size>
-      <MaxHitPoints>120000</MaxHitPoints>
+      <MaxHitPoints>35000</MaxHitPoints>
       <Defense>40</Defense>
       <XpMult>1.0</XpMult>
       <Level>20</Level>
@@ -532,7 +532,7 @@
       <HitSound>monster/skeletons_hit</HitSound>
       <DeathSound>monster/skeletons_death</DeathSound>
       <Size>200</Size>
-      <MaxHitPoints>100000</MaxHitPoints>
+      <MaxHitPoints>27500</MaxHitPoints>
       <Defense>40</Defense>
       <XpMult>5.0</XpMult>
       <Level>20</Level>
@@ -833,7 +833,7 @@
       <HitSound>monster/skeletons_hit</HitSound>
       <DeathSound>monster/skeletons_death</DeathSound>
       <Size>175</Size>
-      <MaxHitPoints>110000</MaxHitPoints>
+      <MaxHitPoints>40000</MaxHitPoints>
       <Defense>60</Defense>
       <XpMult>5.0</XpMult>
       <Level>20</Level>
@@ -1125,7 +1125,7 @@
       <HitSound>monster/skeletons_hit</HitSound>
       <DeathSound>monster/skeletons_death</DeathSound>
       <Size>240</Size>
-      <MaxHitPoints>110000</MaxHitPoints>
+      <MaxHitPoints>30000</MaxHitPoints>
       <Defense>70</Defense>
       <XpMult>7.5</XpMult>
       <Quest/>
@@ -1634,7 +1634,7 @@
       <Size>175</Size>
       <Z>.5</Z>
       <ShadowSize>25</ShadowSize>
-      <MaxHitPoints>125000</MaxHitPoints>
+      <MaxHitPoints>50000</MaxHitPoints>
       <Defense>50</Defense>
       <XpMult>7.5</XpMult>
       <Level>20</Level>

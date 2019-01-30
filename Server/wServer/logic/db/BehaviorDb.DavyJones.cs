@@ -14,6 +14,7 @@ namespace wServer.logic
         private _ DavyJones = () => Behav()
             .Init("Davy Jones",
                 new State(
+                    new ScaleHP(4000),
                     new State("Floating",
                         new ChangeSize(100, 100),
                         new SetAltTexture(1),
@@ -55,12 +56,13 @@ namespace wServer.logic
                 new TierLoot(11, ItemType.Armor, 0.01),
                 new TierLoot(11, ItemType.Weapon, 0.01),
                 new TierLoot(5, ItemType.Ring, 0.01),
-                new ItemLoot("Spirit Dagger", 0.01),
+                new ItemLoot("Spirit Dagger", 0.005),
                 new ItemLoot("Wine Cellar Incantation", 0.01),
-                new ItemLoot("Spectral Cloth Armor", 0.01),
-                new ItemLoot("Ghostly Prism", 0.01),
-                new ItemLoot("Captain's Ring", 0.01),
-                new ItemLoot("Potion of Wisdom", 0.5)
+                new ItemLoot("Spectral Cloth Armor", 0.005),
+                new ItemLoot("Ghostly Prism", 0.005),
+                new ItemLoot("Captain's Ring", 0.005),
+                new ItemLoot("Potion of Wisdom", 0.3),
+                new ItemLoot("Potion of Attack", 0.1)
             )
             .Init("Ghost Lanturn Off",
                 new State(

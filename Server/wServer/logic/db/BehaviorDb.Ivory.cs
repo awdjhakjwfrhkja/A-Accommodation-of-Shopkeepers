@@ -14,6 +14,7 @@ namespace wServer.logic
         private _ TheIvoryWyvern = () => Behav()
             .Init("lod Ivory Wyvern",
             new State(
+                new ScaleHP(10000),
                 new HpLessTransition(0.05, "death"),
                 new TransformOnDeath("lod Ivory Loot"),
                 new State("Idle",

@@ -386,7 +386,7 @@
       </AnimatedTexture>
       <HitSound>monster/medusa_hit</HitSound>
       <DeathSound>monster/medusa_death</DeathSound>
-      <MaxHitPoints>80000</MaxHitPoints>
+      <MaxHitPoints>65000</MaxHitPoints>
       <Size>140</Size>
       <Defense>15</Defense>
       <XpMult>1</XpMult>
@@ -484,7 +484,7 @@
       </AnimatedTexture>
       <HitSound>monster/medusa_hit</HitSound>
       <DeathSound>monster/medusa_death</DeathSound>
-      <MaxHitPoints>90000</MaxHitPoints>
+      <MaxHitPoints>75000</MaxHitPoints>
       <Size>140</Size>
       <Defense>30</Defense>
       <XpMult>1</XpMult>
@@ -554,7 +554,7 @@
       </AnimatedTexture>
       <HitSound>monster/medusa_hit</HitSound>
       <DeathSound>monster/medusa_death</DeathSound>
-      <MaxHitPoints>100000</MaxHitPoints>
+      <MaxHitPoints>80000</MaxHitPoints>
       <Size>140</Size>
       <Defense>50</Defense>
       <XpMult>1</XpMult>

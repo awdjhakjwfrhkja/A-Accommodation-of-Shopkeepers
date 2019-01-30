@@ -10,6 +10,7 @@ namespace wServer.logic
         _ Ocean_Trench = () => Behav()
          .Init("Coral Gift",
           new State(
+              new ScaleHP(4600),
            new State("Texture1",
             new SetAltTexture(1),
             new TimedTransition(500, "Texture2")
@@ -75,6 +76,7 @@ namespace wServer.logic
 
             .Init("Thessal the Mermaid Goddess",
           new State(
+              new ScaleHP(13800),
            new TransformOnDeath("Thessal the Mermaid Goddess Wounded", probability: 0.1),
            new State("Start",
             new Prioritize(

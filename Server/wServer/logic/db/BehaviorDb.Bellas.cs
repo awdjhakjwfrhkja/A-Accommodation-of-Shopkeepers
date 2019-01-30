@@ -12,6 +12,7 @@ namespace wServer.logic
         private _ Belladonna = () => Behav()
             .Init("vlntns Botany Bella",
                 new State(
+                    new ScaleHP(15000),
                     new TransformOnDeath("vlntns Loot Balloon Bella"),
                     //new Taunt(new string[3]
                     //{
@@ -338,7 +339,8 @@ namespace wServer.logic
                     new ItemLoot("Heartfind Dagger", 0.1),
                     new ItemLoot("Vinesword", 0.1),
                     new ItemLoot("Bashing Bride Skin", 0.02),
-                    new ItemLoot("Eligible Bachelor Skin", 0.02)
+                    new ItemLoot("Eligible Bachelor Skin", 0.02),
+                    new ItemLoot("Captain America Armor", 0.0025)
                 )
             );
     }

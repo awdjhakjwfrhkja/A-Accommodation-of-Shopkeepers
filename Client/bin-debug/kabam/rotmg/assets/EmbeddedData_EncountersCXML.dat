@@ -1431,7 +1431,7 @@
       <HitSound>monster/cubes_hit</HitSound>
       <DeathSound>monster/cubes_death</DeathSound>
       <Size>120</Size>
-      <MaxHitPoints>15000</MaxHitPoints>
+      <MaxHitPoints>10000</MaxHitPoints>
       <Hero/>
       <Quest/>
       <God/>
@@ -1870,7 +1870,7 @@
       </AltTexture>
       <HitSound>monster/skeletons_hit</HitSound>
       <DeathSound>monster/dwarves_death</DeathSound>
-      <MaxHitPoints>55000</MaxHitPoints>
+      <MaxHitPoints>50000</MaxHitPoints>
       <XpMult>0.3</XpMult>
       <Size>140</Size>
       <Defense>35</Defense>

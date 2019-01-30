@@ -342,7 +342,7 @@
       <Size>120</Size>
       <Quest/>
       <Level>20</Level>
-      <MaxHitPoints>160000</MaxHitPoints>
+      <MaxHitPoints>80000</MaxHitPoints>
       <Defense>0</Defense>
       <StasisImmune/>
       <StunImmune/>

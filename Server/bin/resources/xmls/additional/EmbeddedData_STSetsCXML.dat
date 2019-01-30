@@ -971,7 +971,7 @@
         <ObjectId>Fire Bullet</ObjectId>
         <Speed>50</Speed>
         <MinDamage>50</MinDamage>
-        <MaxDamage>150</MaxDamage>
+        <MaxDamage>120</MaxDamage>
         <LifetimeMS>700</LifetimeMS>
         <Amplitude>0.5</Amplitude>
         <Frequency>0.5</Frequency>

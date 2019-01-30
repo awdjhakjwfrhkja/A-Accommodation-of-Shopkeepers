@@ -2751,7 +2751,7 @@
       <DeathSound>monster/dark_elves_death</DeathSound>
       <Size>100</Size>
       <ShadowSize>100</ShadowSize>
-      <MaxHitPoints>300000</MaxHitPoints>
+      <MaxHitPoints>85000</MaxHitPoints>
       <Defense>65</Defense>
       <XpMult>0</XpMult>
       <StasisImmune/>

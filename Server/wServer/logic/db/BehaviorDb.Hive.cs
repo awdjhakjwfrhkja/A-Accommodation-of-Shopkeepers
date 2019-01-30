@@ -98,6 +98,7 @@ namespace wServer.logic
             )
         .Init("TH Queen Bee",
             new State(
+                new ScaleHP(700),
                 new RealmPortalDrop(),
                 new Wander(0.5),
                 new Follow(0.3, 10, 5),
