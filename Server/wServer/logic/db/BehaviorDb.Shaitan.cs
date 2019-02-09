@@ -14,6 +14,7 @@ namespace wServer.logic
         private _ LairofShaitan = () => Behav()
             .Init("md1 Head of Shaitan",
                 new State(
+                    new ScaleHP(13000),
                     new TransformOnDeath("md1 Loot Balloon Shaitan"),
                     new State("1",
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
@@ -664,6 +665,7 @@ namespace wServer.logic
             )
             .Init("md1 Right Hand of Shaitan",
                 new State(
+                    new ScaleHP(3500),
                     new State("1",
                         new ConditionalEffect(ConditionEffectIndex.Invincible)
                         ),
@@ -764,6 +766,7 @@ namespace wServer.logic
                     )
             .Init("md1 Left Hand of Shaitan",
                 new State(
+                    new ScaleHP(3500),
                     new State("1",
                         new ConditionalEffect(ConditionEffectIndex.Invincible)
                         ),
@@ -875,7 +878,10 @@ namespace wServer.logic
                     new ItemLoot("Small Crossbox Cloth", 0.05),
                     new ItemLoot("Large Heavy Chainmail Cloth", 0.03),
                     new ItemLoot("Small Heavy Chainmail Cloth", 0.03),
-                    new ItemLoot("Skull of Endless Torment", 0.01)
+                    new ItemLoot("Staff of Shaitan", 0.005),
+                    new ItemLoot("Skull of Endless Torment", 0.005),
+                    new ItemLoot("Hot Lava Robe", 0.005),
+                    new ItemLoot("Magma Ring", 0.005)
                 )
             );
     }

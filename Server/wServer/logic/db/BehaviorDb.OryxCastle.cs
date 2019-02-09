@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ OryxCastle = () => Behav()
             .Init("Oryx Stone Guardian Right",
                 new State(
+                    new ScaleHP(12000),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable, true),
                         new PlayerWithinTransition(4, "Order")
@@ -158,12 +159,16 @@ namespace wServer.logic
                     new TierLoot(3, ItemType.Ring, 0.3),
                     new TierLoot(4, ItemType.Ring, 0.2),
                     new ItemLoot("Ancient Stone Sword", 0.05),
+                    new ItemLoot("Shield of the Stone Guardians", 0.05),
+                    new ItemLoot("Ancient Stone Armor", 0.05),
+                    new ItemLoot("Crown of Horns", 0.05),
                     new ItemLoot("Wine Cellar Incantation", 0.1),
                     new ItemLoot("Potion of Defense", 1.0)
                 )
             )
             .Init("Oryx Stone Guardian Left",
                 new State(
+                    new ScaleHP(12000),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable, true),
                         new PlayerWithinTransition(2, "Order")
@@ -312,6 +317,9 @@ namespace wServer.logic
                     new TierLoot(3, ItemType.Ring, 0.3),
                     new TierLoot(4, ItemType.Ring, 0.2),
                     new ItemLoot("Ancient Stone Sword", 0.05),
+                    new ItemLoot("Shield of the Stone Guardians", 0.05),
+                    new ItemLoot("Ancient Stone Armor", 0.05),
+                    new ItemLoot("Crown of Horns", 0.05),
                     new ItemLoot("Wine Cellar Incantation", 0.1),
                     new ItemLoot("Potion of Defense", 1.0)
                 )

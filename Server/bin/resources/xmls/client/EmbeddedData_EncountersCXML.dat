@@ -489,7 +489,7 @@
       </AnimatedTexture>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>24000</MaxHitPoints>
+      <MaxHitPoints>18000</MaxHitPoints>
       <Defense>50</Defense>
       <XpMult>1</XpMult>
       <Size>120</Size>
@@ -1212,7 +1212,7 @@
       <HitSound>monster/ghost_god_hit</HitSound>
       <DeathSound>monster/ghost_god_death</DeathSound>
       <Size>160</Size>
-      <MaxHitPoints>55000</MaxHitPoints>
+      <MaxHitPoints>50000</MaxHitPoints>
       <Defense>25</Defense>
       <God/>
       <StasisImmune/>
@@ -1292,7 +1292,7 @@
       <HitSound>monster/skull_shrine_hit</HitSound>
       <DeathSound>monster/skull_shrine_death</DeathSound>
       <Size>120</Size>
-      <MaxHitPoints>15000</MaxHitPoints>
+      <MaxHitPoints>10000</MaxHitPoints>
       <Defense>40</Defense>
       <Enemy/>
       <Hero/>
@@ -1720,7 +1720,7 @@
             </Texture>
          </Frame>
       </Animation>
-      <MaxHitPoints>8000</MaxHitPoints>
+      <MaxHitPoints>5000</MaxHitPoints>
       <Size>120</Size>
       <XpMult>0.1</XpMult>
       <God/>
@@ -2405,7 +2405,7 @@
       <DeathSound>monster/flaming_skulls_death</DeathSound>
       <Size>130</Size>
       <ShadowSize>100</ShadowSize>
-      <MaxHitPoints>42000</MaxHitPoints>
+      <MaxHitPoints>50000</MaxHitPoints>
       <Defense>40</Defense>
       <Flying/>
       <Hero/>

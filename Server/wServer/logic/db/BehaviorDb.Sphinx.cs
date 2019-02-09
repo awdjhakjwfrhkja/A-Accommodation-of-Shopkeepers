@@ -11,6 +11,7 @@ namespace wServer.logic
         private _ Sphinx = () => Behav()
             .Init("Grand Sphinx",
                 new State(
+                    new ScaleHP(5000),
                     new DropPortalOnDeath("Tomb of the Ancients Portal", 0.33),
                     new State("Spawned",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),
@@ -88,7 +89,10 @@ namespace wServer.logic
                 new Threshold(0.01,
                     new ItemLoot("Potion of Vitality", 0.1,1),
                     new ItemLoot("Potion of Wisdom", 0.1,1),
-                    new ItemLoot("Helm of the Juggernaut", 0.004)
+                    new ItemLoot("Holy Wand of Protection", 0.005),
+                    new ItemLoot("Tome of Holy Protection", 0.005),
+                    new ItemLoot("Robe of the Protector", 0.005),
+                    new ItemLoot("Ring of Protection", 0.005)
                     )
             )
             .Init("Horrid Reaper",

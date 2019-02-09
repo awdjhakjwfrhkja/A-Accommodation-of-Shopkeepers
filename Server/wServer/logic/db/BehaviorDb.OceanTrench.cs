@@ -28,10 +28,10 @@ namespace wServer.logic
            new ItemLoot("Coral Juice", 0.3),
                          new ItemLoot("Potion of Mana", 0.1),
                          new ItemLoot("Coral Bow", 0.01),
-                         new ItemLoot("Coral Venom Trap", 0.03),
+                         new ItemLoot("Coral Venom Trap", 0.01),
                          new ItemLoot("Wine Cellar Incantation", 0.02),
-                         new ItemLoot("Coral Silk Armor", 0.04),
-                         new ItemLoot("Coral Ring", 0.04)
+                         new ItemLoot("Coral Silk Armor", 0.01),
+                         new ItemLoot("Coral Ring", 0.01)
                          )
           )
 
@@ -169,11 +169,11 @@ namespace wServer.logic
            )
            ),
             new Threshold(0.01,
-             new ItemLoot("Coral Bow", 0.01),
-             new ItemLoot("Coral Venom Trap", 0.02),
+             new ItemLoot("Coral Bow", 0.005),
+             new ItemLoot("Coral Venom Trap", 0.005),
              new ItemLoot("Wine Cellar Incantation", 0.05),
-             new ItemLoot("Coral Silk Armor", 0.08),
-             new ItemLoot("Coral Ring", 0.15),
+             new ItemLoot("Coral Silk Armor", 0.005),
+             new ItemLoot("Coral Ring", 0.005),
              new ItemLoot("Golden Conch", 0.05),
              new ItemLoot("Golden Cockle", 0.05),
              new ItemLoot("Golden Horn Conch", 0.05)

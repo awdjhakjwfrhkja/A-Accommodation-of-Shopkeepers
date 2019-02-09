@@ -28,6 +28,7 @@ public class EmbeddedAssets {
     public static var lostHallsChars16x16Embed_:Class = EmbeddedAssets_lostHallsChars16x16Embed_;
     public static var BedlamEmbed_:Class = EmbeddedAssets_BedlamEmbed_;
     public static var CthulhuEmbed_:Class = EmbeddedAssets_CthulhuEmbed_;
+    public static var CrabRaveEmbed_:Class = EmbeddedAssets_CrabRaveEmbed_;
     public static var Custom16x16Embed_:Class = EmbeddedAssets_Custom16x16Embed_;
     public static var lofiObjBigEmbed_:Class = EmbeddedAssets_lofiObjBigEmbed_;
     public static var lofiObj40x40Embed_:Class = EmbeddedAssets_lofiObj40x40Embed_;

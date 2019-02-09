@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ SpriteWorld = () => Behav()
         .Init("Limon the Sprite God",
              new State(
+                 new ScaleHP(1800),
                  new State("idle",
                      new Flash(0x66FF00, 0.6, 9),
                      new Wander(0.07),
@@ -147,6 +148,9 @@ namespace wServer.logic
                 ),
                 new Threshold(0.1,
                     new ItemLoot("Staff of Extreme Prejudice", 0.005),
+                    new ItemLoot("Ancient Pierce Spell", 0.005),
+                    new ItemLoot("Robe of Extreme Animosity", 0.005),
+                    new ItemLoot("Ring of Prejudice", 0.005),
                     new ItemLoot("Cloak of the Planewalker", 0.005),
                     new ItemLoot("Wine Cellar Incantation", 0.005),
                     new ItemLoot("Sprite Wand", 0.01),

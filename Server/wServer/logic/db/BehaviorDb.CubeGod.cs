@@ -37,7 +37,10 @@ namespace wServer.logic
                     new ItemLoot("Potion of Wisdom", .1),
                     new ItemLoot("Potion of Speed", .1),
                     new ItemLoot("Potion of Dexterity", .1),
-                    new ItemLoot("Dirk of Cronus", .001)
+                    new ItemLoot("Dirk of Cronus", .005),
+                    new ItemLoot("Cloak of the Mad Rogue", .005),
+                    new ItemLoot("Cronus Flame Armor", .005),
+                    new ItemLoot("Ring of Cronus", .005)
                     )
             )
             .Init("Cube Overseer",

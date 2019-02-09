@@ -362,9 +362,9 @@ namespace wServer.logic
                     new ItemLoot("Royal Staff", 0.008),
                     new ItemLoot("Robe of the King", 0.008),
                     new ItemLoot("Ring of the Throne", 0.008),
-                    new ItemLoot("Staff of the Great Climbing", 0.01),
-                    new ItemLoot("Robe of the Battle Monk", 0.01), 
-                    new ItemLoot("The Bloody Legacy", 0.01)
+                    new ItemLoot("Staff of the Great Climbing", 0.008),
+                    new ItemLoot("Robe of the Battle Monk", 0.008), 
+                    new ItemLoot("The Bloody Legacy", 0.008)
                     )
             )
             .Init("shtrs Pillar 1", //Killer Pillar | Up Left

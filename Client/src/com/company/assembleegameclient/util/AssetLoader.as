@@ -136,6 +136,7 @@ public class AssetLoader {
         AnimatedChars.add("Bedlam", new EmbeddedAssets.BedlamEmbed_().bitmapData, null, 32, 32, 224, 32, AnimatedChar.DOWN);
         AnimatedChars.add("Custom16x16", new EmbeddedAssets.Custom16x16Embed_().bitmapData, null, 16, 16, 112, 16, AnimatedChar.DOWN);
         AnimatedChars.add("Cthulhu", new EmbeddedAssets.CthulhuEmbed_().bitmapData, null, 75, 75, 525, 75, AnimatedChar.DOWN);
+        AnimatedChars.add("CrabRave", new EmbeddedAssets.CrabRaveEmbed_().bitmapData, null, 16, 16, 112, 16, AnimatedChar.DOWN);
     }
 
     private function addSoundEffects():void {

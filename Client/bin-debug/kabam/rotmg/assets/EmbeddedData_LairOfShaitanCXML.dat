@@ -14,7 +14,7 @@
       <DeathSound>monster/skeletons_death</DeathSound>
       <Size>250</Size>
       <ShadowSize>25</ShadowSize>
-      <MaxHitPoints>90000</MaxHitPoints>
+      <MaxHitPoints>65000</MaxHitPoints>
       <Defense>60</Defense>
       <XpMult>1.3</XpMult>
       <ParalyzeImmune/>
@@ -101,7 +101,7 @@
       <DeathSound>monster/skeletons_death</DeathSound>
       <Size>200</Size>
       <ShadowSize>25</ShadowSize>
-      <MaxHitPoints>25000</MaxHitPoints>
+      <MaxHitPoints>17500</MaxHitPoints>
       <Defense>70</Defense>
       <XpMult>0.0</XpMult>
       <ParalyzeImmune/>
@@ -192,7 +192,7 @@
       <DeathSound>monster/skeletons_death</DeathSound>
       <Size>200</Size>
       <ShadowSize>25</ShadowSize>
-      <MaxHitPoints>25000</MaxHitPoints>
+      <MaxHitPoints>17500</MaxHitPoints>
       <Defense>70</Defense>
       <XpMult>0.0</XpMult>
       <ParalyzeImmune/>

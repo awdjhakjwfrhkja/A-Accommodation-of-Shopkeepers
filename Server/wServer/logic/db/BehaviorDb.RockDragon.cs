@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ RockDragon = () => Behav()
             .Init("Dragon Head", //6Alt Texture | 0->3 Proj
                 new State(
+                    new ScaleHP(1800),
                     new TransferDamageOnDeath("Dragon Head Spawner"),
                     new State("Invul",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),
@@ -89,7 +90,10 @@ namespace wServer.logic
                     new ItemLoot("Potion of Wisdom", .1),
                     new ItemLoot("Potion of Speed", .1),
                     new ItemLoot("Potion of Dexterity", .1),
-                    new ItemLoot("Ray Katana", .01)
+                    new ItemLoot("Ray Katana", .005),
+                    new ItemLoot("Sunlight Stars", .005),
+                    new ItemLoot("Solar Armor", .005),
+                    new ItemLoot("Ring of Daybreak", .005)
                     )
             )
             #region Segment

@@ -19,6 +19,7 @@ namespace wServer.logic
             )
             .Init("Pentaract Tower",
                 new State(
+                    new ScaleHP(500),
                     new Spawn("Pentaract Eye", 5, coolDown: 5000, givesNoXp: false),
                     new Grenade(4, 100, 8, coolDown: 5000),
                     new TransformOnDeath("Pentaract Tower Corpse"),
@@ -73,7 +74,10 @@ namespace wServer.logic
                     new ItemLoot("Potion of Wisdom", .1),
                     new ItemLoot("Potion of Speed", .1),
                     new ItemLoot("Potion of Dexterity", .1),
-                    new ItemLoot("Seal of Blasphemous Prayer", .004)
+                    new ItemLoot("Sword of Darkness", .005),
+                    new ItemLoot("Seal of Blasphemous Prayer", .005),
+                    new ItemLoot("Evil Platemail", .005),
+                    new ItemLoot("Ring of Unanswered Prayers", .005)
                     )
             )
             ;

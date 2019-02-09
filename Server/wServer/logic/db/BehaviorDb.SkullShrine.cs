@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ SkullShrine = () => Behav()
             .Init("Skull Shrine",
                 new State(
+                    new ScaleHP(1000),
                     new Shoot(30, 9, 10, coolDown: 750, predictive: 1), // add prediction after fixing it...
                     new Reproduce("Red Flaming Skull", 40, 20, coolDown: 500),
                     new Reproduce("Blue Flaming Skull", 40, 20, coolDown: 500)
@@ -41,7 +42,10 @@ namespace wServer.logic
                     new ItemLoot("Small Plaid Cloth", .01),
                     new ItemLoot("Large Skull Cloth", .01),
                     new ItemLoot("Small Skull Cloth", .01),
-                    new ItemLoot("Orb of Conflict", .001)
+                    new ItemLoot("Staff of Darkness", .005),
+                    new ItemLoot("Orb of Conflict", .005),
+                    new ItemLoot("Robe of the Ancient Bloodstone", .005),
+                    new ItemLoot("Dual Rings of War", .005)
                     )
             )
             .Init("Red Flaming Skull",

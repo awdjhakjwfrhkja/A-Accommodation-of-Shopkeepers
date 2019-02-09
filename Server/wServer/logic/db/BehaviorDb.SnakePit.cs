@@ -11,6 +11,7 @@ namespace wServer.logic
         private _ SnakePit = () => Behav()
             .Init("Stheno the Snake Queen",
                 new State(
+                    new ScaleHP(1800),
                     new DropPortalOnDeath("Portal of Cowardice", 1),
                     new State("Idle",
                         new PlayerWithinTransition(20, "Silver Blasts")
@@ -268,7 +269,10 @@ namespace wServer.logic
                     new ItemLoot("Potion of Speed", 1)
                 ),
                 new Threshold(0.1,
-                    new ItemLoot("Wand of the Bulwark", 0.01),
+                    new ItemLoot("Wand of the Bulwark", 0.005),
+                    new ItemLoot("Battle-Mage Scepter", 0.005),
+                    new ItemLoot("Robe of the Bulwark", 0.005),
+                    new ItemLoot("Black Pearl Ring", 0.005),
                     new ItemLoot("Snake Skin Armor", 0.1),
                     new ItemLoot("Snake Skin Shield", 0.1),
                     new ItemLoot("Snake Eye Ring", 0.1),

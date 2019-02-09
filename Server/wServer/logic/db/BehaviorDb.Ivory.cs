@@ -214,14 +214,14 @@ namespace wServer.logic
             )
             .Init("lod Ivory Loot",
                 new State(
+                    new ScaleHP(5000),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                         new TimedTransition(5000, "UnsetEffect")
                     ),
                     new State("UnsetEffect")
                     ),
-            new ItemLoot("Helm of Draconic Dominance", 0.01),
-            new ItemLoot("Midnight Star", 0.01),
+            new ItemLoot("Helm of Draconic Dominance", 0.005),
             new ItemLoot("Wine Cellar Incantation", 0.01),
             new TierLoot(12, ItemType.Weapon, 0.1),
             new TierLoot(13, ItemType.Armor, 0.1),
@@ -230,7 +230,11 @@ namespace wServer.logic
             new ItemLoot("Potion of Attack", 0.5),
             new ItemLoot("Potion of Wisdom", 0.5),
             new ItemLoot("Potion of Vitality", 0.5),
-            new ItemLoot("Potion of Speed", 0.5)
+            new ItemLoot("Potion of Speed", 0.5),
+            new ItemLoot("Ivory Sword", 0.005),
+            new ItemLoot("Ivory Seal of Prospect", 0.005),
+            new ItemLoot("Armor of the Titan", 0.005),
+            new ItemLoot("Ivory Stone Necklace", 0.005)
             )
             .Init("lod Mirror Wyvern1",
                 new State(

@@ -89,7 +89,7 @@
     <BagType>6</BagType>
     <DisplayId>Magma Ring</DisplayId>
   </Object>
-  </Shaitan>
+  </Shaitan> 
 
   <Ivory>
   <Object type="0xcac" id="Ivory Sword" setName="Ivory Wyvern">
@@ -173,7 +173,7 @@
     <BagType>6</BagType>
     <DisplayId>Ivory Stone Necklace</DisplayId>
   </Object>
-  </Ivory>
+  </Ivory> 
 
   <CandyLand>
   <Object type="0xcaa" id="Sword of Grand Prestige" setName="Candyland Hunting Grounds">
@@ -259,7 +259,7 @@
     <BagType>6</BagType>
     <DisplayId>Ring of Honor</DisplayId>
   </Object>
-  </CandyLand>
+  </CandyLand> 
 
   <Pentaract>
   <Object type="0xca7" id="Sword of Darkness" setName="Pentaract">
@@ -327,7 +327,7 @@
     <DisplayId>Evil Platemail</DisplayId>
   </Object>
 
-  <Object type="0xf3d" id="Ring of Unanswered Prayers" setName="Pentaract">
+  <Object type="0xf3d" id="Ring of Unanswered Prayers" setName="Pentaract"> 
     <Class>Equipment</Class>
     <Item/>
     <Texture>
@@ -344,7 +344,7 @@
     <BagType>6</BagType>
     <DisplayId>Ring of Unanswered Prayers</DisplayId>
   </Object>
-  </Pentaract>
+  </Pentaract> 
 
   <Castle>
   <Object type="0xc05" id="Ancient Stone Sword" setName="Oryx's Castle">
@@ -439,7 +439,7 @@
     <BagType>6</BagType>
     <DisplayId>Crown of Horns</DisplayId>
   </Object>
-  </Castle>
+  </Castle> 
 
   <Cemetary>
   <Object type="0xcb0" id="Hidden Blade" setName="Haunted Cemetery">
@@ -602,7 +602,7 @@
       <BagType>6</BagType>
       <DisplayId>Ring of Cronus</DisplayId>
     </Object>
-  </CubeGod>
+  </CubeGod> 
 
   <Puppet>
     <Object type="0xcca" id="Timeshift Dagger" setName="Puppet Master's Theatre">
@@ -768,7 +768,7 @@
       <BagType>6</BagType>
       <DisplayId>Green Dragon-Fire Ring</DisplayId>
     </Object>
-  </Limoz>
+  </Limoz> 
 
   <Feargus>
     <Object type="0xcbe" id="Lightning Bow" setName="Feargus the Obsidian Dragon">
@@ -863,7 +863,7 @@
       <BagType>6</BagType>
       <DisplayId>Lightning Rod Ring</DisplayId>
     </Object>
-  </Feargus>
+  </Feargus> 
 
   <Nikao>
     <Object type="0x1519" id="Blue Dragon Staff" setName="Nikao the Azure Dragon">
@@ -953,7 +953,7 @@
       <BagType>6</BagType>
       <DisplayId>Blue Dragon Fire Ring</DisplayId>
     </Object>
-  </Nikao>
+  </Nikao> 
 
   <Pyrr>
     <Object type="0x2303" id="Sword of Illumination" setName="Pyyr the Crimson Dragon">
@@ -1044,7 +1044,7 @@
       <BagType>6</BagType>
       <DisplayId>Red Dragon-Fire Ring</DisplayId>
     </Object>
-  </Pyrr>
+  </Pyrr> 
 
   <Vulcan>
     <Object type="0x1535" id="Dagger of Broken Light" setName="Vulcan the Fire God">
@@ -1209,7 +1209,7 @@
       <FameBonus>6</FameBonus>
       <DisplayId>Captain's Ring</DisplayId>
     </Object>
-  </Davy>
+  </Davy> 
 
   <Lair>
     <Object type="0xc02" id="Doom Bow" setName="Undead Lair">
@@ -1302,7 +1302,7 @@
       <BagType>6</BagType>
       <DisplayId>Ring of Doom</DisplayId>
     </Object>
-  </Lair>
+  </Lair> 
 
   <Trench>
     <Object type="0xc10" id="Coral Bow" setName="Ocean Trench">
@@ -1385,7 +1385,7 @@
       <FameBonus>6</FameBonus>
       <DisplayId>Coral Ring</DisplayId>
     </Object>
-  </Trench>
+  </Trench> 
 
   <Sprite>
     <Object type="0xc03" id="Staff of Extreme Prejudice" setName="Sprite World">
@@ -1447,7 +1447,7 @@
     <Object type="0xc90" id="Robe of Extreme Animosity" setName="Sprite World">
       <Class>Equipment</Class>
       <Item/>
-      <Texture>
+      <Texture> 
         <File>lofiObj2</File>
         <Index>0x10b</Index>
       </Texture>
@@ -1571,7 +1571,7 @@
     <BagType>6</BagType>
     <DisplayId>Ring of the Throne</DisplayId>
   </Object>
-</Avatar>
+</Avatar> 
 
   <IceCave>
     <Object type="0x766" id="Staff of Esben" setName="Ice Cave">
@@ -1662,7 +1662,7 @@
       <BagType>6</BagType>
       <DisplayId>Ring of the Ice Cave</DisplayId>
     </Object>
-  </IceCave>
+  </IceCave> 
 
   <Skull>
     <Object type="0x1505" id="Staff of Darkness" setName="Skull Shrine">
@@ -1753,7 +1753,7 @@
       <BagType>6</BagType>
       <DisplayId>Dual Rings of War</DisplayId>
     </Object>
-  </Skull>
+  </Skull> 
 
   <Manor>
     <Object type="0xc1d" id="St. Abraham's Wand" setName="Manor of the Immortals">
@@ -1837,7 +1837,7 @@
       <BagType>6</BagType>
       <DisplayId>Ring of Divine Faith</DisplayId>
     </Object>
-  </Manor>
+  </Manor> 
 
   <Sphinx>
     <Object type="0x233e" id="Holy Wand of Protection" setName="Grand Sphinx">
@@ -1923,7 +1923,7 @@
       <BagType>6</BagType>
       <DisplayId>Ring of Protection</DisplayId>
     </Object>
-  </Sphinx>
+  </Sphinx> 
 
   <Lab>
     <Object type="0xc33" id="Conducting Wand" setName="Mad Lab">
@@ -2007,7 +2007,7 @@
       <FameBonus>6</FameBonus>
       <DisplayId>Experimental Ring</DisplayId>
     </Object>
-  </Lab>
+  </Lab> 
 
   <Snake>
     <Object type="0xc04" id="Wand of the Bulwark" setName="Snake Pit">
@@ -2091,7 +2091,7 @@
       <BagType>6</BagType>
       <DisplayId>Black Pearl Ring</DisplayId>
     </Object>
-  </Snake>
+  </Snake> 
 
   <Abyss>
     <Object type="0xc01" id="Demon Blade" setName="Abyss of Demons">
@@ -2175,7 +2175,7 @@
       <BagType>6</BagType>
       <DisplayId>Ring of Demons</DisplayId>
     </Object>
-  </Abyss>
+  </Abyss> 
 
   <Hermit>
     <Object type="0x2341" id="Sword of Light" setName="Hermit God">
@@ -2257,7 +2257,7 @@
       <BagType>6</BagType>
       <DisplayId>Ring of Sky Metal</DisplayId>
     </Object>
-  </Hermit>
+  </Hermit> 
 
   <LotLL>
     <Object type="0xcc6" id="Sword of the Masses" setName="Lord of the Lost Lands">
@@ -2354,7 +2354,7 @@
       <BagType>6</BagType>
       <DisplayId>Bracelet of Strength</DisplayId>
     </Object>
-  </LotLL>
+  </LotLL> 
 
   <Sewers>
     <Object type="0xcc8" id="Sword of Heavy Magic" setName="Toxic Sewers">
@@ -2450,7 +2450,7 @@
       <BagType>6</BagType>
       <DisplayId>Magic Amulet</DisplayId>
     </Object>
-  </Sewers>
+  </Sewers> 
 
   <GShip>
     <Object type="0xfe6" id="Orochi" setName="Ghost Ship">
@@ -2546,7 +2546,7 @@
       <FameBonus>6</FameBonus>
       <BagType>6</BagType>
     </Object>
-  </GShip>
+  </GShip> 
 
   <RDrag>
     <Object type="0x915" id="Ray Katana" setName="Rock Dragon">
@@ -2642,7 +2642,7 @@
       <FameBonus>6</FameBonus>
       <BagType>6</BagType>
     </Object>
-  </RDrag>
+  </RDrag> 
 
 
   <Projectiles>

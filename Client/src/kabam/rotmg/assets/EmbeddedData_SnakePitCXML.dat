@@ -104,7 +104,7 @@
       <HitSound>monster/snake_queen_hit</HitSound>
       <DeathSound>monster/snake_queen_death</DeathSound>
       <Size>100</Size>
-      <MaxHitPoints>7500</MaxHitPoints>
+      <MaxHitPoints>9000</MaxHitPoints>
       <Defense>19</Defense>
       <Enemy/>
       <God/>

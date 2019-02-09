@@ -15,6 +15,7 @@ namespace wServer.logic
         private _ GhostShip = () => Behav()
             .Init("Ghost Ship",
                 new State(
+                    new ScaleHP(5000),
                     new State("Waiting Player",
                         new SetAltTexture(1),
                         new Prioritize(
@@ -219,7 +220,11 @@ namespace wServer.logic
                     new TierLoot(11, ItemType.Armor, 0.04),
                     new TierLoot(5, ItemType.Ability, 0.04),
                     new TierLoot(5, ItemType.Ring, 0.04),
-                    new ItemLoot("Wine Cellar Incantation", .001)
+                    new ItemLoot("Wine Cellar Incantation", .001),
+                    new ItemLoot("Orochi", 0.005),
+                    new ItemLoot("Midnight Star", 0.005),
+                    new ItemLoot("Hide of Moonlight", 0.005),
+                    new ItemLoot("Ring of the Night", 0.005)
                     )
             )
             .Init("Ghost Ship Anchor",
