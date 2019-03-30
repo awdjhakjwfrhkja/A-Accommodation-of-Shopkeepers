@@ -14,11 +14,13 @@ namespace wServer.logic.behaviors
 
         private readonly double range;
         private readonly ConditionEffectIndex effect;
+        private readonly short duration;
 
-        public GivePlayersEffect(double range, ConditionEffectIndex effect)
+        public GivePlayersEffect(double range, ConditionEffectIndex effect, short duration = 500)
         {
             this.range = (float)range;
             this.effect = effect;
+            this.duration = duration;
         }
 
 
@@ -30,7 +32,7 @@ namespace wServer.logic.behaviors
                 i.ApplyConditionEffect(new ConditionEffect
                 {
                     Effect = effect,
-                    DurationMS = 500
+                    DurationMS = duration
                 });
                 break;
             }

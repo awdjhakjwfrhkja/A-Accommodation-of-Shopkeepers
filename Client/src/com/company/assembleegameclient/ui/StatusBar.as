@@ -1,6 +1,9 @@
 ﻿package com.company.assembleegameclient.ui {
 import com.company.assembleegameclient.objects.Player;
 import com.company.assembleegameclient.parameters.Parameters;
+import com.company.util.AssetLibrary;
+
+import flash.display.Bitmap;
 
 import flash.display.Sprite;
 import flash.events.Event;
@@ -42,6 +45,7 @@ public class StatusBar extends Sprite {
     private var repetitions:int;
     private var direction:int = -1;
     private var speed:Number = 0.1;
+    private var overlayBitmap:Bitmap;
 
     public function StatusBar(_arg1:int, _arg2:int, _arg3:uint, _arg4:uint, _arg5:String = null) {
         this.colorSprite = new Sprite();
@@ -88,6 +92,8 @@ public class StatusBar extends Sprite {
             addEventListener(MouseEvent.ROLL_OUT, this.onMouseOut);
         }
         barTextSignal.add(this.setBarText);
+        this.overlayBitmap = new Bitmap(AssetLibrary.getImage("uiBarOverlay"));
+        addChild(this.overlayBitmap);
     }
 
     public function centerVertically(_arg1:TextFieldDisplayConcrete):void {

@@ -36,6 +36,7 @@ public class AssetLoader {
     }
 
     private function addImages():void {
+        AssetLibrary.addImage("uiBarOverlay", new EmbeddedAssets.uiBarOverlayEmbed_().bitmapData);
         AssetLibrary.addImageSet("lofiChar8x8", new EmbeddedAssets.lofiCharEmbed_().bitmapData, 8, 8);
         AssetLibrary.addImageSet("lofiChar16x8", new EmbeddedAssets.lofiCharEmbed_().bitmapData, 16, 8);
         AssetLibrary.addImageSet("lofiChar16x16", new EmbeddedAssets.lofiCharEmbed_().bitmapData, 16, 16);

@@ -1,10 +1,12 @@
 ﻿package kabam.rotmg.assets {
+
 public class EmbeddedAssets {
 
     public static const StarburstSpinner:Class = EmbeddedAssets_StarburstSpinner;
     public static const EvolveBackground:Class = EmbeddedAssets_EvolveBackground;
     public static const DarknessBackground:Class = EmbeddedAssets_DarknessBackground;
 
+    public static var uiBarOverlayEmbed_:Class = EmbeddedAssets_uiBarOverlayEmbed_;
     public static var particlesEmbed:Class = EmbeddedAssets_particlesEmbed;
     public static var lofiCharEmbed_:Class = EmbeddedAssets_lofiCharEmbed_;
     public static var lofiChar2Embed_:Class = EmbeddedAssets_lofiChar2Embed_;
