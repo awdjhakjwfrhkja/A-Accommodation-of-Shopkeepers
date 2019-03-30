@@ -298,6 +298,7 @@ namespace common.resources
         CharUnlocker,
         VaultUnlocker,
         FakeWhiteBag
+        //Wakizashi
     }
 
     public class ActivateEffect

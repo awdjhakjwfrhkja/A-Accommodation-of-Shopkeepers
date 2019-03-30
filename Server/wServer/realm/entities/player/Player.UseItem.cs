@@ -311,6 +311,12 @@ namespace wServer.realm.entities
                         }
                         break;
 
+                    /*case ActivateEffects.Wakizashi:
+                        {
+                            Wakizashi(time, item, target, eff);
+                        }
+                        break;*/
+
                     case ActivateEffects.GenericActivate:
                         AEGenericActivate(time, item, target, eff);
                         break;
@@ -1296,6 +1302,59 @@ namespace wServer.realm.entities
             }
             BroadcastSync(sPkts, p => p != this && this.DistSqr(p) < RadiusSqr);
         }
+
+        /*private void Wakizashi(RealmTime time, Item item, Position target, ActivateEffect eff)
+        {
+            var prjDesc = item.Projectiles[0];
+            float range = (prjDesc.Speed / 100) * (prjDesc.LifetimeMS / 100);
+            Position startPoint = target;
+            var startAngle = Math.Atan2(startPoint.Y - Y, startPoint.X - X);
+
+            #region Maximum Distance Enforce
+            var distance = Dist(this as Entity, startPoint);
+            if (distance > eff.MaximumDistance)
+            {
+                var diff = distance - eff.MaximumDistance;
+                startPoint.X -= (float)(diff * Math.Cos(startAngle));
+                startPoint.Y -= (float)(diff * Math.Sin(startAngle));
+            }
+            #endregion
+
+            var startGap = (eff.NumShots - 1) / 2 * eff.GapTiles;
+            double gapAngle = eff.GapAngle * Math.PI / 180;
+            var startX = startPoint.X + (startGap * Math.Cos(startAngle - gapAngle));
+            var startY = startPoint.Y + (startGap * Math.Sin(startAngle - gapAngle));
+
+            var batch = new Message[eff.NumShots];
+            for (int i = 0; i < eff.NumShots; i++)
+            {
+                var startXi = startX - (eff.GapTiles * i * Math.Cos(startAngle - gapAngle));
+                var startYi = startY - (eff.GapTiles * i * Math.Sin(startAngle - gapAngle));
+                var startAnglei = startAngle + (float)eff.OffsetAngle * Math.PI / 180;
+
+                startXi -= ((range / 2) * Math.Cos(startAnglei));
+                startYi -= ((range / 2) * Math.Sin(startAnglei));
+
+                var proj = CreateProjectile(prjDesc,
+                    (int)StatsManager.GetAttackDamage(prjDesc.MinDamage, prjDesc.MaxDamage),
+                    time.TotalElapsedMs, new Position(startXi, startYi), (float)(startAnglei));
+                Owner?.EnterWorld(proj);
+                FameCounter.Shoot(proj);
+
+                batch[i] = new SERVERPLAYERSHOOT()
+                {
+                    BulletId = proj.ProjectileId,
+                    OwnerId = Id,
+                    ContainerType = item.ObjectType,
+                    StartingPos = new Position(startXi, startYi),
+                    Angle = proj.Angle,
+                    Damage = (short)proj.Damage
+                };
+            }
+
+            foreach (Player plr in Owner?.Players.Values.Where(p => p?.DistSqr(this) < Settings.GAMESERVER.RadiusSqr))
+                plr?.Client.SendMessage(batch);
+        }*/
 
         private void AEBulletNova(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
