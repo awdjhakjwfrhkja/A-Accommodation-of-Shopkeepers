@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+
+  <Object type="0xa000" id="Boshy Projectile">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x19</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+
+  <Object type="0xe85" id="Boshy Gun">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x09</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Description>It was Boshy Time.</Description>
+    <RateOfFire>0.75</RateOfFire>
+    <Sound>weapon/golden_bow</Sound>
+    <Projectile>
+      <ObjectId>Boshy Projectile</ObjectId>
+      <Speed>160</Speed>
+      <MinDamage>50</MinDamage>
+      <MaxDamage>100</MaxDamage>
+      <LifetimeMS>600</LifetimeMS>
+      <Size>40</Size>
+      <MultiHit/>
+      <PassesCover/>
+      <ArmorPiercing/>
+    </Projectile>
+    <ArcGap>9</ArcGap>
+    <BagType>6</BagType>
+    <FameBonus>8</FameBonus>
+    <NumProjectiles>5</NumProjectiles>
+    <OldSound>arrowShoot</OldSound>
+    <LG/>
+    <L/>
+    <DisplayId>Boshy Gun</DisplayId>
+  </Object>
+
+</Objects>
