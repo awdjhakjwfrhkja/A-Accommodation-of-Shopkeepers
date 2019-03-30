@@ -722,8 +722,8 @@ public class EquipmentToolTip extends ToolTip {
         if (this.objectXML.hasOwnProperty("@setName")) {
             this.restrictions.push(new Restriction(("This item is a part of the " + this.objectXML.attribute("setName") + " set!"), 0xFF9900, true));
         }
-        if (this.objectXML.hasOwnProperty("L")) {
-            this.restrictions.push(new Restriction(("This item is as Rare as you can get!"), 0xCBAC00, true));
+        if (this.objectXML.hasOwnProperty("LG")) {
+            this.restrictions.push(new Restriction(("The Rarest of Items!"), 0xCBAC00, true));
         }
         if (this.playerCanUse) {
             if (this.objectXML.hasOwnProperty("Usable")) {

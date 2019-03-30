@@ -2288,12 +2288,12 @@
     <BagType>5</BagType>
   </Object>
   <Object type="0xf98" id="Potion of Attack">
-    <DisplayId>Vial of Attack</DisplayId>
+    <DisplayId>Potion of Attack</DisplayId>
     <Class>Equipment</Class>
     <Item/>
     <Texture>
-      <File>lofiObj4</File>
-      <Index>0x4b</Index>
+      <File>lofiObj2</File>
+      <Index>0x34</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that permanently increases attack power.</Description>
@@ -2378,12 +2378,12 @@
     <BagType>5</BagType>
   </Object>
   <Object type="0xf93" id="Potion of Dexterity">
-    <DisplayId>Vial of Dexterity</DisplayId>
+    <DisplayId>Potion of Dexterity</DisplayId>
     <Class>Equipment</Class>
     <Item/>
     <Texture>
-      <File>lofiObj4</File>
-      <Index>0x4f</Index>
+      <File>lofiObj2</File>
+      <Index>0x37</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that permanently increases dexterity.</Description>
@@ -2468,12 +2468,12 @@
     <BagType>5</BagType>
   </Object>
   <Object type="0xf88" id="Potion of Wisdom">
-    <DisplayId>Vial of Wisdom</DisplayId>
+    <DisplayId>Potion of Wisdom</DisplayId>
     <Class>Equipment</Class>
     <Item/>
     <Texture>
-      <File>lofiObj4</File>
-      <Index>0x4e</Index>
+      <File>lofiObj2</File>
+      <Index>0x31</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that permanently increases Wisdom.</Description>
@@ -2558,12 +2558,12 @@
     <BagType>5</BagType>
   </Object>
   <Object type="0xf83" id="Potion of Vitality">
-    <DisplayId>Vial of Vitality</DisplayId>
+    <DisplayId>Potion of Vitality</DisplayId>
     <Class>Equipment</Class>
     <Item/>
     <Texture>
-      <File>lofiObj4</File>
-      <Index>0x4d</Index>
+      <File>lofiObj2</File>
+      <Index>0x30</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that permanently increases Vitality.</Description>
@@ -2648,12 +2648,12 @@
     <BagType>5</BagType>
   </Object>
   <Object type="0xf78" id="Potion of Speed">
-    <DisplayId>Vial of Speed</DisplayId>
+    <DisplayId>Potion of Speed</DisplayId>
     <Class>Equipment</Class>
     <Item/>
     <Texture>
-      <File>lofiObj4</File>
-      <Index>0x4c</Index>
+      <File>lofiObj2</File>
+      <Index>0x36</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that permanently increases Speed.</Description>
@@ -2738,12 +2738,12 @@
     <BagType>5</BagType>
   </Object>
   <Object type="0xf73" id="Potion of Defense">
-    <DisplayId>Vial of Defense</DisplayId>
+    <DisplayId>Potion of Defense</DisplayId>
     <Class>Equipment</Class>
     <Item/>
     <Texture>
-      <File>lofiObj4</File>
-      <Index>0x9f</Index>
+      <File>lofiObj2</File>
+      <Index>0x35</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that permanently increases Defense.</Description>
@@ -2828,12 +2828,12 @@
     <BagType>5</BagType>
   </Object>
   <Object type="0xf68" id="Potion of Life">
-    <DisplayId>Vial of Life</DisplayId>
+    <DisplayId>Potion of Life</DisplayId>
     <Class>Equipment</Class>
     <Item/>
     <Texture>
-      <File>lofiObj4</File>
-      <Index>0x4a</Index>
+      <File>lofiObj2</File>
+      <Index>0x26</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that permanently increases Life.</Description>
@@ -2918,12 +2918,12 @@
     <BagType>5</BagType>
   </Object>
   <Object type="0xf63" id="Potion of Mana">
-    <DisplayId>Vial of Mana</DisplayId>
+    <DisplayId>Potion of Mana</DisplayId>
     <Class>Equipment</Class>
     <Item/>
     <Texture>
-      <File>lofiObj4</File>
-      <Index>0x94</Index>
+      <File>lofiObj2</File>
+      <Index>0x27</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that permanently increases Mana.</Description>
@@ -18206,47 +18206,6 @@
     <Activate id="Rainbow Road">Create</Activate>
     <BagType>5</BagType>
     <Track/>
-  </Object>
-
-  <Object type="0xa000" id="Boshy Projectile">
-    <Class>Projectile</Class>
-    <Texture>
-      <File>lofiObj6</File>
-      <Index>0x19</Index>
-    </Texture>
-    <AngleCorrection>1</AngleCorrection>
-  </Object>
-
-  <Object type="0xe85" id="Boshy Gun">
-    <Class>Equipment</Class>
-    <Item/>
-    <Texture>
-      <File>lofiObj6</File>
-      <Index>0x09</Index>
-    </Texture>
-    <SlotType>3</SlotType>
-    <Description>It was Boshy Time.</Description>
-    <RateOfFire>0.75</RateOfFire>
-    <Sound>weapon/golden_bow</Sound>
-    <Projectile>
-      <ObjectId>Boshy Projectile</ObjectId>
-      <Speed>160</Speed>
-      <MinDamage>80</MinDamage>
-      <MaxDamage>140</MaxDamage>
-      <LifetimeMS>600</LifetimeMS>
-      <Size>40</Size>
-      <MultiHit/>
-      <PassesCover/>
-      <ArmorPiercing/>
-    </Projectile>
-    <ArcGap>9</ArcGap>
-    <BagType>6</BagType>
-    <FameBonus>8</FameBonus>
-    <NumProjectiles>2</NumProjectiles>
-    <OldSound>arrowShoot</OldSound>
-    <LG/>
-    <L/>
-    <DisplayId>Boshy Gun</DisplayId>
   </Object>
 
   <Object type="0xa002" id="Boshy">
