@@ -462,7 +462,7 @@ namespace wServer.logic
                 new ItemLoot("Potion of Wisdom", 0.4),
                 new ItemLoot("Potion of Vitality", 0.4),
 
-                new TierLoot(5, ItemType.Ring, 0,07),
+                new TierLoot(5, ItemType.Ring, 0.07),
                 new TierLoot(5, ItemType.Ability, 0.05),
                 new TierLoot(12, ItemType.Armor, 0.05),
                 new TierLoot(11, ItemType.Armor, 0.07),
@@ -591,6 +591,62 @@ namespace wServer.logic
                     new State("forreal",
                         new Suicide()
                         )
+                    )
+            )
+            .Init("Corrupted Caster",
+                new State(
+                    new Shoot(8, 10, projectileIndex: 1, coolDown: 2000),
+                    new Shoot(8, 1, projectileIndex: 0, coolDown: 750, predictive: 1),
+                    new Follow(0.5, 8, 0.1f),
+                    new Orbit(0.2, 1, 8)
+                    )
+            )
+            .Init("Corrupted Bowman",
+                new State(
+                    new Wander(0.5),
+                    new Follow(0.25, 10, 4),
+                    new Shoot(10, 2, 10, coolDown: 1000),
+                    new Shoot(10, 1, projectileIndex: 1, coolDown: 2000)
+                    )
+            )
+            .Init("Corrupted Spearman",
+                new State(
+                    new Follow(0.75, 10, 0.1f),
+                    new Shoot(10, 3, 10, coolDown: 1500),
+                    new Shoot(10, 8, projectileIndex: 1, coolDown: 1000)
+                    )
+            )
+            .Init("Mini Corrupted Armor",
+                new State(
+                    new Follow(0.65, 10, 0.1f),
+                    new Wander(0.2),
+                    new Shoot(6, 3, 20, coolDown: 1500)
+                    )
+            )
+            .Init("Corrupted Armor",
+                new State(
+                    new State("Idle",
+                        new PlayerWithinTransition(15, "yeet")
+                        ),
+                    new State("yeet",
+                        new Reproduce("Mini Corrupted Armor", coolDown: 8000),
+                        new Shoot(15, 1, coolDown: 250),
+                        new Shoot(15, 8, projectileIndex: 1, coolDown: 600)
+                        )
+                    )
+            )
+            .Init("Corrupted Monk",
+                new State(
+                    new Follow(0.5, 10, 8),
+                    new Wander(0.75),
+                    new Shoot(7, 5, 10, coolDown: 3000)
+                    )
+            )
+            .Init("Corrupted Spawn",
+                new State(
+                    new Shoot(10, 2, 20, coolDown: 750, predictive: 1),
+                    new Follow(0.75, 10, 0.1f),
+                    new Wander(0.2)
                     )
             )
             ;
