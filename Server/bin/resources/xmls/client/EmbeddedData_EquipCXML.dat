@@ -18231,8 +18231,8 @@
     <Projectile>
       <ObjectId>Boshy Projectile</ObjectId>
       <Speed>160</Speed>
-      <MinDamage>50</MinDamage>
-      <MaxDamage>100</MaxDamage>
+      <MinDamage>100</MinDamage>
+      <MaxDamage>150</MaxDamage>
       <LifetimeMS>600</LifetimeMS>
       <Size>40</Size>
       <MultiHit/>
